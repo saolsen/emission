@@ -3978,9 +3978,10 @@ danger-plugin-jest@^1.1.0:
   optionalDependencies:
     serve "^5.1.5"
 
-danger@^6:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/danger/-/danger-6.0.2.tgz#760f7603bf8bdd1c451236cd29c790baa4cf8185"
+danger@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/danger/-/danger-6.1.1.tgz#8738688773c85720a7f0f5f1e912699a738a776f"
+  integrity sha512-WLg9iHPqY8iAzDAucPh11+NPVIcL8+1S1Nm2NfpomlLw5l4jixTQf7VgD4moiAWs2zkr6vzJMpJWLn276r9c8g==
   dependencies:
     "@babel/polyfill" "^7.0.0"
     "@octokit/rest" "^15.12.1"

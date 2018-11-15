@@ -114,7 +114,7 @@
     "babel-jest": "^23.4.2",
     "babel-plugin-relay": "https://github.com/alloy/relay/releases/download/v1.5.0-artsy.3/babel-plugin-relay-1.5.0-artsy.3.tgz",
     "concurrently": "^2.2.0",
-    "danger": "^6",
+    "danger": "^6.1.1",
     "danger-plugin-jest": "^1.1.0",
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
