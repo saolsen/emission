@@ -1,6 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`looks correct when rendered 1`] = `
+<<<<<<< HEAD
 Array [
   <View
     alignItems="center"
@@ -2082,4 +2083,9 @@ Array [
     </View>
   </RCTScrollView>,
 ]
+=======
+<Text>
+  []
+</Text>
+>>>>>>> Update snapshots
 `;

@@ -22,6 +22,7 @@ exports[`CaretButton renders properly 1`] = `
   }
 >
   <Text
+<<<<<<< HEAD
     accessible={true}
     allowFontScaling={true}
     className="sc-bdVaJa bDWFJH"
@@ -29,6 +30,12 @@ exports[`CaretButton renders properly 1`] = `
     fontFamily="Unica77LL-Medium"
     fontSize="14px"
     lineHeight="20px"
+=======
+    className="sc-htpNat KtFsv"
+    fontFamily="AvantGardeGothicITC"
+    fontSize={14}
+    lineHeight={18}
+>>>>>>> Update snapshots
     style={
       Array [
         Object {
