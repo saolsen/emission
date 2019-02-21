@@ -69,10 +69,7 @@ exports[`looks like expected 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
             className="sc-bdVaJa bDWFJH"
-            ellipsizeMode="tail"
             fontFamily="Unica77LL-Medium"
             fontSize="14px"
             lineHeight="24px"
@@ -98,11 +95,8 @@ exports[`looks like expected 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
             className="sc-bdVaJa bDWFJH"
             color="#666"
-            ellipsizeMode="tail"
             fontFamily="Unica77LL-Regular"
             fontSize="14px"
             lineHeight="24px"
@@ -143,6 +137,7 @@ exports[`looks like expected 1`] = `
           }
         >
           <Text
+<<<<<<< HEAD
             accessible={true}
             allowFontScaling={true}
             className="sc-bdVaJa bDWFJH"
@@ -151,6 +146,8 @@ exports[`looks like expected 1`] = `
             fontFamily="Unica77LL-Medium"
             fontSize="14px"
             lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
             style={
               Array [
                 Object {

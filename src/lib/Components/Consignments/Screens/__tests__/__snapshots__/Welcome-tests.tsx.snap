@@ -71,9 +71,6 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               isPad={true}
               isPortrait={false}
               isTiny={false}
@@ -128,9 +125,6 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -202,9 +196,6 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -276,9 +267,6 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -350,9 +338,6 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -435,6 +420,7 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -443,6 +429,8 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -482,6 +470,7 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -490,6 +479,8 @@ exports[`Sets up the right view hierarchy for iPad in landscape mode 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -585,9 +576,6 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               isPad={true}
               isPortrait={true}
               isTiny={false}
@@ -642,9 +630,6 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -716,9 +701,6 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -790,9 +772,6 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -864,9 +843,6 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -949,6 +925,7 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -957,6 +934,8 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -996,6 +975,7 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -1004,6 +984,8 @@ exports[`Sets up the right view hierarchy for iPad in portrait mode 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -1099,9 +1081,6 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               isPad={false}
               isPortrait={true}
               isTiny={true}
@@ -1156,9 +1135,6 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -1230,9 +1206,6 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -1304,9 +1277,6 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -1378,9 +1348,6 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -1463,6 +1430,7 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -1471,6 +1439,8 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -1510,6 +1480,7 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -1518,6 +1489,8 @@ exports[`Sets up the right view hierarchy for iPhone 4 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -1613,9 +1586,6 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               isPad={false}
               isPortrait={true}
               isTiny={true}
@@ -1670,9 +1640,6 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -1744,9 +1711,6 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -1818,9 +1782,6 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -1892,9 +1853,6 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -1977,6 +1935,7 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -1985,6 +1944,8 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -2024,6 +1985,7 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -2032,6 +1994,8 @@ exports[`Sets up the right view hierarchy for iPhone 5 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -2127,9 +2091,6 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               isPad={false}
               isPortrait={true}
               isTiny={false}
@@ -2184,9 +2145,6 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -2258,9 +2216,6 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -2332,9 +2287,6 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -2406,9 +2358,6 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
                 }
               />
               <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
                 style={
                   Array [
                     Object {
@@ -2491,6 +2440,7 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -2499,6 +2449,8 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {
@@ -2538,6 +2490,7 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
                 }
               >
                 <Text
+<<<<<<< HEAD
                   accessible={true}
                   allowFontScaling={true}
                   className="sc-bdVaJa bDWFJH"
@@ -2546,6 +2499,8 @@ exports[`Sets up the right view hierarchy for iPhone 6 1`] = `
                   fontFamily="Unica77LL-Medium"
                   fontSize="14px"
                   lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                   style={
                     Array [
                       Object {

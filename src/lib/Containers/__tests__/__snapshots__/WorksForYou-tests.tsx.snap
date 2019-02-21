@@ -21,6 +21,184 @@ exports[`with notifications lays out correctly on larger screens 1`] = `
         }
       }
     >
+<<<<<<< HEAD
+=======
+      <View
+        style={
+          Array [
+            Object {
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          background="#F8F8F8"
+          height="220px"
+          p={0}
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "height": 220,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "backgroundColor": "#F8F8F8",
+                  "borderColor": "#E5E5E5",
+                  "borderRadius": 2,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "height": 220,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "paddingTop": 0,
+                  "width": "100%",
+                },
+                Object {
+                  "overflow": "hidden",
+                },
+              ],
+            ]
+          }
+          width="100%"
+        >
+          <ARVideo
+            loop={true}
+            resizeMode="cover"
+            size={
+              Object {
+                "height": 220,
+                "width": 750,
+              }
+            }
+            source={
+              Object {
+                "isAsset": false,
+                "isNetwork": false,
+                "resizeMode": "cover",
+                "type": "mp4",
+                "uri": undefined,
+              }
+            }
+          />
+        </View>
+        <View
+          my={2}
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+                "marginTop": 8,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            className="sc-bdVaJa bDWFJH"
+            fontFamily="Unica77LL-Regular"
+            fontSize={14}
+            lineHeight={24}
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Unica77LL-Regular",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                undefined,
+              ]
+            }
+          >
+            In-demand artworks, available to buy now
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(0, 0, 0, 1)",
+              "borderColor": "transparent",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "height": 36,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 130,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 12,
+                },
+                Object {
+                  "fontFamily": "AvantGardeGothicITC",
+                },
+                Object {
+                  "color": "rgba(255, 255, 255, 1)",
+                  "fontFamily": "Unica77LL-Medium",
+                  "fontSize": 14,
+                  "opacity": 1,
+                  "textShadowColor": "white",
+                },
+              ]
+            }
+          >
+            Browse works
+          </Text>
+        </View>
+        <View
+          mb={-3}
+          mt={4}
+          style={
+            Array [
+              Object {
+                "marginBottom": -16,
+                "marginTop": 32,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 0,
+                  "borderColor": "#E5E5E5",
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          />
+        </View>
+      </View>
+>>>>>>> [test] Update snapshots with new default values.
       <RCTScrollView
         dataSource={
           ListViewDataSource {
@@ -82,9 +260,6 @@ exports[`with notifications lays out correctly on larger screens 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -102,9 +277,6 @@ exports[`with notifications lays out correctly on larger screens 1`] = `
                   JEAN-MICHEL BASQUIAT
                 </Text>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   numberOfLines={1}
                   style={
                     Array [
@@ -197,9 +369,6 @@ exports[`with notifications lays out correctly on larger screens 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -217,9 +386,6 @@ exports[`with notifications lays out correctly on larger screens 1`] = `
                   ANA MENDIETA
                 </Text>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   numberOfLines={1}
                   style={
                     Array [
@@ -291,6 +457,184 @@ exports[`with notifications lays out correctly on small screens 1`] = `
         }
       }
     >
+<<<<<<< HEAD
+=======
+      <View
+        style={
+          Array [
+            Object {
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          background="#F8F8F8"
+          height="220px"
+          p={0}
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "height": 220,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "backgroundColor": "#F8F8F8",
+                  "borderColor": "#E5E5E5",
+                  "borderRadius": 2,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "height": 220,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "paddingTop": 0,
+                  "width": "100%",
+                },
+                Object {
+                  "overflow": "hidden",
+                },
+              ],
+            ]
+          }
+          width="100%"
+        >
+          <ARVideo
+            loop={true}
+            resizeMode="cover"
+            size={
+              Object {
+                "height": 220,
+                "width": 750,
+              }
+            }
+            source={
+              Object {
+                "isAsset": false,
+                "isNetwork": false,
+                "resizeMode": "cover",
+                "type": "mp4",
+                "uri": undefined,
+              }
+            }
+          />
+        </View>
+        <View
+          my={2}
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+                "marginTop": 8,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            className="sc-bdVaJa bDWFJH"
+            fontFamily="Unica77LL-Regular"
+            fontSize={14}
+            lineHeight={24}
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Unica77LL-Regular",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                undefined,
+              ]
+            }
+          >
+            In-demand artworks, available to buy now
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(0, 0, 0, 1)",
+              "borderColor": "transparent",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "height": 36,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 130,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 12,
+                },
+                Object {
+                  "fontFamily": "AvantGardeGothicITC",
+                },
+                Object {
+                  "color": "rgba(255, 255, 255, 1)",
+                  "fontFamily": "Unica77LL-Medium",
+                  "fontSize": 14,
+                  "opacity": 1,
+                  "textShadowColor": "white",
+                },
+              ]
+            }
+          >
+            Browse works
+          </Text>
+        </View>
+        <View
+          mb={-3}
+          mt={4}
+          style={
+            Array [
+              Object {
+                "marginBottom": -16,
+                "marginTop": 32,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 0,
+                  "borderColor": "#E5E5E5",
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          />
+        </View>
+      </View>
+>>>>>>> [test] Update snapshots with new default values.
       <RCTScrollView
         dataSource={
           ListViewDataSource {
@@ -352,9 +696,6 @@ exports[`with notifications lays out correctly on small screens 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -372,9 +713,6 @@ exports[`with notifications lays out correctly on small screens 1`] = `
                   JEAN-MICHEL BASQUIAT
                 </Text>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   numberOfLines={1}
                   style={
                     Array [
@@ -467,9 +805,6 @@ exports[`with notifications lays out correctly on small screens 1`] = `
                 }
               >
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   style={
                     Array [
                       Object {
@@ -487,9 +822,6 @@ exports[`with notifications lays out correctly on small screens 1`] = `
                   ANA MENDIETA
                 </Text>
                 <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
                   numberOfLines={1}
                   style={
                     Array [
@@ -569,6 +901,184 @@ exports[`without notifications lays out correctly on larger screens 1`] = `
         style={
           Array [
             Object {
+<<<<<<< HEAD
+=======
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          background="#F8F8F8"
+          height="220px"
+          p={0}
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "height": 220,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "backgroundColor": "#F8F8F8",
+                  "borderColor": "#E5E5E5",
+                  "borderRadius": 2,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "height": 220,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "paddingTop": 0,
+                  "width": "100%",
+                },
+                Object {
+                  "overflow": "hidden",
+                },
+              ],
+            ]
+          }
+          width="100%"
+        >
+          <ARVideo
+            loop={true}
+            resizeMode="cover"
+            size={
+              Object {
+                "height": 220,
+                "width": 750,
+              }
+            }
+            source={
+              Object {
+                "isAsset": false,
+                "isNetwork": false,
+                "resizeMode": "cover",
+                "type": "mp4",
+                "uri": undefined,
+              }
+            }
+          />
+        </View>
+        <View
+          my={2}
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+                "marginTop": 8,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            className="sc-bdVaJa bDWFJH"
+            fontFamily="Unica77LL-Regular"
+            fontSize={14}
+            lineHeight={24}
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Unica77LL-Regular",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                undefined,
+              ]
+            }
+          >
+            In-demand artworks, available to buy now
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(0, 0, 0, 1)",
+              "borderColor": "transparent",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "height": 36,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 130,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 12,
+                },
+                Object {
+                  "fontFamily": "AvantGardeGothicITC",
+                },
+                Object {
+                  "color": "rgba(255, 255, 255, 1)",
+                  "fontFamily": "Unica77LL-Medium",
+                  "fontSize": 14,
+                  "opacity": 1,
+                  "textShadowColor": "white",
+                },
+              ]
+            }
+          >
+            Browse works
+          </Text>
+        </View>
+        <View
+          mb={-3}
+          mt={4}
+          style={
+            Array [
+              Object {
+                "marginBottom": -16,
+                "marginTop": 32,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 0,
+                  "borderColor": "#E5E5E5",
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+>>>>>>> [test] Update snapshots with new default values.
               "alignItems": "center",
               "flexBasis": 0,
               "flexGrow": 1,
@@ -594,9 +1104,6 @@ exports[`without notifications lays out correctly on larger screens 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
@@ -613,9 +1120,6 @@ exports[`without notifications lays out correctly on larger screens 1`] = `
             You haven’t followed any artists yet.
           </Text>
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={0}
             style={
               Array [
@@ -667,6 +1171,184 @@ exports[`without notifications lays out correctly on small screens 1`] = `
         style={
           Array [
             Object {
+<<<<<<< HEAD
+=======
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          background="#F8F8F8"
+          height="220px"
+          p={0}
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "height": 220,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "backgroundColor": "#F8F8F8",
+                  "borderColor": "#E5E5E5",
+                  "borderRadius": 2,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "height": 220,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "paddingTop": 0,
+                  "width": "100%",
+                },
+                Object {
+                  "overflow": "hidden",
+                },
+              ],
+            ]
+          }
+          width="100%"
+        >
+          <ARVideo
+            loop={true}
+            resizeMode="cover"
+            size={
+              Object {
+                "height": 220,
+                "width": 750,
+              }
+            }
+            source={
+              Object {
+                "isAsset": false,
+                "isNetwork": false,
+                "resizeMode": "cover",
+                "type": "mp4",
+                "uri": undefined,
+              }
+            }
+          />
+        </View>
+        <View
+          my={2}
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+                "marginTop": 8,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            className="sc-bdVaJa bDWFJH"
+            fontFamily="Unica77LL-Regular"
+            fontSize={14}
+            lineHeight={24}
+            style={
+              Array [
+                Object {
+                  "fontFamily": "Unica77LL-Regular",
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                undefined,
+              ]
+            }
+          >
+            In-demand artworks, available to buy now
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(0, 0, 0, 1)",
+              "borderColor": "transparent",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "height": 36,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 130,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 12,
+                },
+                Object {
+                  "fontFamily": "AvantGardeGothicITC",
+                },
+                Object {
+                  "color": "rgba(255, 255, 255, 1)",
+                  "fontFamily": "Unica77LL-Medium",
+                  "fontSize": 14,
+                  "opacity": 1,
+                  "textShadowColor": "white",
+                },
+              ]
+            }
+          >
+            Browse works
+          </Text>
+        </View>
+        <View
+          mb={-3}
+          mt={4}
+          style={
+            Array [
+              Object {
+                "marginBottom": -16,
+                "marginTop": 32,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 0,
+                  "borderColor": "#E5E5E5",
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "width": "100%",
+                },
+                undefined,
+              ]
+            }
+            width="100%"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+>>>>>>> [test] Update snapshots with new default values.
               "alignItems": "center",
               "flexBasis": 0,
               "flexGrow": 1,
@@ -692,9 +1374,6 @@ exports[`without notifications lays out correctly on small screens 1`] = `
           }
         >
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             style={
               Array [
                 Object {
@@ -711,9 +1390,6 @@ exports[`without notifications lays out correctly on small screens 1`] = `
             You haven’t followed any artists yet.
           </Text>
           <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
             numberOfLines={0}
             style={
               Array [

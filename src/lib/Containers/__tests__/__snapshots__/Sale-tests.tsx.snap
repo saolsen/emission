@@ -187,9 +187,6 @@ exports[`state looks okay by default 1`] = `
             }
           >
             <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
               numberOfLines={1}
               style={
                 Array [
@@ -232,6 +229,7 @@ exports[`state looks okay by default 1`] = `
               }
             >
               <Text
+<<<<<<< HEAD
                 accessible={true}
                 allowFontScaling={true}
                 className="sc-bdVaJa bDWFJH"
@@ -240,6 +238,8 @@ exports[`state looks okay by default 1`] = `
                 fontFamily="Unica77LL-Medium"
                 fontSize="14px"
                 lineHeight="24px"
+=======
+>>>>>>> [test] Update snapshots with new default values.
                 style={
                   Array [
                     Object {
