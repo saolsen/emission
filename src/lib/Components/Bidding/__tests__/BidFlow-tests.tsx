@@ -55,7 +55,7 @@ it("allows bidders with a qualified credit card to bid", () => {
   expect(getTitleText(screen)).toEqual("Confirm your bid")
 
   mockphysics.mockReturnValueOnce(Promise.resolve(mockRequestResponses.pollingForBid.highestBidder))
-  relay.commitMutation = jest.fn((_, { onCompleted }) => onCompleted(mockRequestResponses.placingBid.bidAccepted))
+  relay.commitMutation = jest.fn((_, { onCompleted }) => onCompleted(mockRequestResponses.placingBid.bidAccepted, []))
 
   screen.root.findByType(Checkbox).instance.props.onPress()
   screen.root.findByType(Button).instance.props.onPress()

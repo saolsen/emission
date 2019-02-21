@@ -89,6 +89,7 @@ export enum PageNames {
   GenePage = "Gene",
   FairPage = "Fair",
   ShowPage = "Show",
+  AboutTheShowPage = "AboutTheShow",
   InboxPage = "Inbox",
   InquiryPage = "Inquiry",
   HomeArtistsWorksForYou = "HomeArtistsWorksForYou",
@@ -122,7 +123,7 @@ export enum ActionTypes {
 }
 
 /**
- * Action event discriptors / names
+ * Action event descriptors / names
  */
 export enum ActionNames {
   /**
@@ -167,6 +168,8 @@ export enum ActionNames {
   SavesAndFollowsWorks = "savesAndFollowsWorks",
   SavesAndFollowsArtists = "savesAndFollowsArtists",
   SavesAndFollowsCategories = "savesAndFollowsCategories",
+  SavesAndFollowsFairs = "savesAndFollowsFairs",
+  SavesAndFollowsShows = "savesAndFollowsShows",
 
   /**
    *  Consignment flow
@@ -180,4 +183,19 @@ export enum ActionNames {
   BidFlowAddBillingAddress = "addBillingAddress",
   BidFlowPlaceBid = "placeBid",
   BidFlowSaveBillingAddress = "saveBillingAddress",
+
+  /**
+   * Show flow
+   */
+  ShowAllArtists = "showAllArtists",
+  ShowAllArtworks = "showAllArtworks",
+  SingleShowMap = "singleShowMap",
+  CarouselSwipe = "carouselSwipe",
+  ContextualArtist = "contextualArtist",
+  GallerySite = "gallerySite",
+  ListArtist = "listArtist",
+  SaveShow = "saveShow",
+  UnsaveShow = "unsaveShow",
+  ToggleHours = "toggleHours",
+  NearbyShow = "nearbyShow",
 }

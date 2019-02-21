@@ -50,6 +50,7 @@ export function metaphysicsExtensionsLoggerMiddleware() {
           // and show the raw request obj in-case we add new things to it
           if (requestCount) {
             Object.keys(apis).forEach(host => {
+              // @ts-ignore
               console.group(host)
               Object.keys(apis[host].requests).forEach(route => {
                 console.log(route, apis[host].requests[route])
@@ -61,6 +62,7 @@ export function metaphysicsExtensionsLoggerMiddleware() {
           // Show stitched queries inline. This will probably need work in
           // the future, because I bet it's ugly.
           if (stitchCount) {
+            // @ts-ignore
             console.group("Stitched")
             stitching.requests.forEach(element => {
               console.log(element.requests)

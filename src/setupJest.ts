@@ -23,6 +23,7 @@ expect.extend({ toMatchDiffSnapshot: (diff as any).toMatchDiffSnapshot })
 jest.mock("react-tracking")
 import _track from "react-tracking"
 const track = _track as jest.Mock<typeof _track>
+// @ts-ignore
 track.mockImplementation(y => x => x)
 
 // Mock this separately so react-tracking can be unmocked in tests but not result in the `window` global being accessed.
