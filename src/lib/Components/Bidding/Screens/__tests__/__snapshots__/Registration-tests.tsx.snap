@@ -269,17 +269,11 @@ exports[`renders properly for a user with a credit card 1`] = `
               }
             >
               <Text
-<<<<<<< HEAD
-                accessible={true}
-                allowFontScaling={true}
                 className="sc-bdVaJa bDWFJH"
                 color="black"
-                ellipsizeMode="tail"
                 fontFamily="Unica77LL-Medium"
                 fontSize="14px"
                 lineHeight="24px"
-=======
->>>>>>> [test] Update snapshots with new default values.
                 style={
                   Array [
                     Object {
@@ -1010,17 +1004,11 @@ exports[`renders properly for a user without a credit card 1`] = `
               }
             >
               <Text
-<<<<<<< HEAD
-                accessible={true}
-                allowFontScaling={true}
                 className="sc-bdVaJa bDWFJH"
                 color="black"
-                ellipsizeMode="tail"
                 fontFamily="Unica77LL-Medium"
                 fontSize="14px"
                 lineHeight="24px"
-=======
->>>>>>> [test] Update snapshots with new default values.
                 style={
                   Array [
                     Object {

@@ -29,7 +29,7 @@ exports[`renders properly 1`] = `
       <View
         accessible={true}
         onResponderGrant={[Function]}
-        onResponderMove={[Function]}yarn
+        onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
@@ -42,49 +42,9 @@ exports[`renders properly 1`] = `
             }
           }
         >
-<<<<<<< HEAD:src/lib/Components/ArtworkGrids/__tests__/__snapshots__/GenericGrid-tests.tsx.snap
           <AROpaqueImageView
             aspectRatio={2.18}
             imageURL="artsy.net/image-url"
-=======
-          <Text
-            className="sc-bdVaJa bDWFJH"
-            color="#000"
-            fontFamily="Unica77LL-Medium"
-            fontSize={12}
-            lineHeight={16}
-            style={
-              Array [
-                Object {
-                  "color": "#000",
-                  "fontFamily": "Unica77LL-Medium",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                undefined,
-              ]
-            }
-          >
-
-          </Text>
-          <Text
-            className="sc-bdVaJa bDWFJH"
-            color="#666"
-            fontFamily="Unica77LL-Regular"
-            fontSize={12}
-            lineHeight={16}
-            style={
-              Array [
-                Object {
-                  "color": "#666",
-                  "fontFamily": "Unica77LL-Regular",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                undefined,
-              ]
-            }
->>>>>>> Update snapshots:src/lib/Components/ArtworkGrids/__tests__/__snapshots__/Generic-grid-tests.tsx.snap
           />
         </View>
         <Text
@@ -213,49 +173,9 @@ exports[`renders properly 1`] = `
             }
           }
         >
-<<<<<<< HEAD:src/lib/Components/ArtworkGrids/__tests__/__snapshots__/GenericGrid-tests.tsx.snap
           <AROpaqueImageView
             aspectRatio={2.18}
             imageURL="artsy.net/image-url"
-=======
-          <Text
-            className="sc-bdVaJa bDWFJH"
-            color="#000"
-            fontFamily="Unica77LL-Medium"
-            fontSize={12}
-            lineHeight={16}
-            style={
-              Array [
-                Object {
-                  "color": "#000",
-                  "fontFamily": "Unica77LL-Medium",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                undefined,
-              ]
-            }
-          >
-
-          </Text>
-          <Text
-            className="sc-bdVaJa bDWFJH"
-            color="#666"
-            fontFamily="Unica77LL-Regular"
-            fontSize={12}
-            lineHeight={16}
-            style={
-              Array [
-                Object {
-                  "color": "#666",
-                  "fontFamily": "Unica77LL-Regular",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                undefined,
-              ]
-            }
->>>>>>> Update snapshots:src/lib/Components/ArtworkGrids/__tests__/__snapshots__/Generic-grid-tests.tsx.snap
           />
         </View>
         <Text
@@ -384,49 +304,9 @@ exports[`renders properly 1`] = `
             }
           }
         >
-<<<<<<< HEAD:src/lib/Components/ArtworkGrids/__tests__/__snapshots__/GenericGrid-tests.tsx.snap
           <AROpaqueImageView
             aspectRatio={2.18}
             imageURL="artsy.net/image-url"
-=======
-          <Text
-            className="sc-bdVaJa bDWFJH"
-            color="#000"
-            fontFamily="Unica77LL-Medium"
-            fontSize={12}
-            lineHeight={16}
-            style={
-              Array [
-                Object {
-                  "color": "#000",
-                  "fontFamily": "Unica77LL-Medium",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                undefined,
-              ]
-            }
-          >
-
-          </Text>
-          <Text
-            className="sc-bdVaJa bDWFJH"
-            color="#666"
-            fontFamily="Unica77LL-Regular"
-            fontSize={12}
-            lineHeight={16}
-            style={
-              Array [
-                Object {
-                  "color": "#666",
-                  "fontFamily": "Unica77LL-Regular",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                undefined,
-              ]
-            }
->>>>>>> Update snapshots:src/lib/Components/ArtworkGrids/__tests__/__snapshots__/Generic-grid-tests.tsx.snap
           />
         </View>
         <Text
@@ -527,4 +407,4 @@ exports[`renders properly 1`] = `
     </View>
   </View>
 </View>
-`
+`;

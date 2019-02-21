@@ -126,10 +126,7 @@ exports[`renders properly with credit card 1`] = `
               }
             >
               <Text
-                accessible={true}
-                allowFontScaling={true}
                 className="sc-bdVaJa bDWFJH"
-                ellipsizeMode="tail"
                 fontFamily="Unica77LL-Medium"
                 fontSize="16px"
                 lineHeight="22px"
@@ -147,10 +144,7 @@ exports[`renders properly with credit card 1`] = `
                 15d  23h  07m  27s
               </Text>
               <Text
-                accessible={true}
-                allowFontScaling={true}
                 className="sc-bdVaJa bDWFJH"
-                ellipsizeMode="tail"
                 fontFamily="Unica77LL-Medium"
                 fontSize="12px"
                 lineHeight="16px"
@@ -331,17 +325,11 @@ exports[`renders properly with credit card 1`] = `
                     }
                   >
                     <Text
-<<<<<<< HEAD
-                      accessible={true}
-                      allowFontScaling={true}
                       className="sc-bdVaJa bDWFJH"
                       color="black"
-                      ellipsizeMode="tail"
                       fontFamily="Unica77LL-Medium"
                       fontSize="14px"
                       lineHeight="24px"
-=======
->>>>>>> [test] Update snapshots with new default values.
                       style={
                         Array [
                           Object {
@@ -655,10 +643,7 @@ exports[`renders properly without credit card 1`] = `
               }
             >
               <Text
-                accessible={true}
-                allowFontScaling={true}
                 className="sc-bdVaJa bDWFJH"
-                ellipsizeMode="tail"
                 fontFamily="Unica77LL-Medium"
                 fontSize="16px"
                 lineHeight="22px"
@@ -676,10 +661,7 @@ exports[`renders properly without credit card 1`] = `
                 15d  23h  07m  27s
               </Text>
               <Text
-                accessible={true}
-                allowFontScaling={true}
                 className="sc-bdVaJa bDWFJH"
-                ellipsizeMode="tail"
                 fontFamily="Unica77LL-Medium"
                 fontSize="12px"
                 lineHeight="16px"
@@ -1137,17 +1119,11 @@ exports[`renders properly without credit card 1`] = `
                     }
                   >
                     <Text
-<<<<<<< HEAD
-                      accessible={true}
-                      allowFontScaling={true}
                       className="sc-bdVaJa bDWFJH"
                       color="black"
-                      ellipsizeMode="tail"
                       fontFamily="Unica77LL-Medium"
                       fontSize="14px"
                       lineHeight="24px"
-=======
->>>>>>> [test] Update snapshots with new default values.
                       style={
                         Array [
                           Object {

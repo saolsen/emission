@@ -90,22 +90,11 @@ exports[`Registration result component renders registration complete properly 1`
         }
       >
         <Text
-<<<<<<< HEAD
-          accessible={true}
-          allowFontScaling={true}
           className="sc-bdVaJa bDWFJH"
           color="black60"
-          ellipsizeMode="tail"
           fontFamily="Unica77LL-Regular"
           fontSize="14px"
           lineHeight="20px"
-=======
-          className="sc-bwzfXH uTxCW"
-          color="black60"
-          fontFamily="AGaramondPro-Regular"
-          fontSize={16}
-          lineHeight={20}
->>>>>>> [test] Update snapshots with new default values.
           style={
             Array [
               Object {
@@ -152,17 +141,11 @@ to bid on works in this sale.
     }
   >
     <Text
-<<<<<<< HEAD
-      accessible={true}
-      allowFontScaling={true}
       className="sc-bdVaJa bDWFJH"
       color="black"
-      ellipsizeMode="tail"
       fontFamily="Unica77LL-Medium"
       fontSize="14px"
       lineHeight="24px"
-=======
->>>>>>> [test] Update snapshots with new default values.
       style={
         Array [
           Object {
@@ -271,22 +254,11 @@ exports[`Registration result component renders registration error properly 1`] =
         }
       >
         <Text
-<<<<<<< HEAD
-          accessible={true}
-          allowFontScaling={true}
           className="sc-bdVaJa bDWFJH"
           color="black60"
-          ellipsizeMode="tail"
           fontFamily="Unica77LL-Regular"
           fontSize="14px"
           lineHeight="20px"
-=======
-          className="sc-bwzfXH uTxCW"
-          color="black60"
-          fontFamily="AGaramondPro-Regular"
-          fontSize={16}
-          lineHeight={20}
->>>>>>> [test] Update snapshots with new default values.
           style={
             Array [
               Object {
@@ -347,17 +319,11 @@ with any questions.
     }
   >
     <Text
-<<<<<<< HEAD
-      accessible={true}
-      allowFontScaling={true}
       className="sc-bdVaJa bDWFJH"
       color="black"
-      ellipsizeMode="tail"
       fontFamily="Unica77LL-Medium"
       fontSize="14px"
       lineHeight="24px"
-=======
->>>>>>> [test] Update snapshots with new default values.
       style={
         Array [
           Object {
@@ -466,22 +432,11 @@ exports[`Registration result component renders registration pending properly 1`]
         }
       >
         <Text
-<<<<<<< HEAD
-          accessible={true}
-          allowFontScaling={true}
           className="sc-bdVaJa bDWFJH"
           color="black60"
-          ellipsizeMode="tail"
           fontFamily="Unica77LL-Regular"
           fontSize="14px"
           lineHeight="20px"
-=======
-          className="sc-bwzfXH uTxCW"
-          color="black60"
-          fontFamily="AGaramondPro-Regular"
-          fontSize={16}
-          lineHeight={20}
->>>>>>> [test] Update snapshots with new default values.
           style={
             Array [
               Object {
@@ -543,17 +498,11 @@ more information.
     }
   >
     <Text
-<<<<<<< HEAD
-      accessible={true}
-      allowFontScaling={true}
       className="sc-bdVaJa bDWFJH"
       color="black"
-      ellipsizeMode="tail"
       fontFamily="Unica77LL-Medium"
       fontSize="14px"
       lineHeight="24px"
-=======
->>>>>>> [test] Update snapshots with new default values.
       style={
         Array [
           Object {
