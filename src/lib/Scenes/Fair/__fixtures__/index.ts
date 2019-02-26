@@ -1,602 +1,719 @@
+//
+
 export const fairFixture = {
-  id: "sofa-chicago-2018",
-  name: "SOFA CHICAGO 2018",
+  id: "art-palm-springs-2019",
+  __id: "RmFpcjphcnQtcGFsbS1zcHJpbmdzLTIwMTk=",
+  _id: "5c17b160ffbbc72eef33040c",
+  name: "Art Palm Springs 2019",
+  counts: { artists: 279, partners: 33 },
+  partner_names: {
+    edges: [
+      {
+        node: {
+          id: "blue-rain-gallery-blue-rain-gallery-at-art-palm-springs-2019",
+          partner: {
+            __typename: "Partner",
+            profile: {
+              name: "Blue Rain Gallery",
+              id: "blue-rain-gallery",
+              _id: "58b4acca139b2178c2554ab7",
+              __id: "UHJvZmlsZTpibHVlLXJhaW4tZ2FsbGVyeQ==",
+            },
+            __id: "UGFydG5lcjpibHVlLXJhaW4tZ2FsbGVyeQ==",
+          },
+          __id: "U2hvdzpibHVlLXJhaW4tZ2FsbGVyeS1ibHVlLXJhaW4tZ2FsbGVyeS1hdC1hcnQtcGFsbS1zcHJpbmdzLTIwMTk=",
+        },
+      },
+      {
+        node: {
+          id: "fabrik-projects-gallery-fabrik-projects-gallery-at-art-palm-springs-2019",
+          partner: {
+            __typename: "Partner",
+            profile: {
+              name: "Fabrik Projects Gallery",
+              id: "fabrik-gallery",
+              _id: "5941712db202a34d5c754b36",
+              __id: "UHJvZmlsZTpmYWJyaWstZ2FsbGVyeQ==",
+            },
+            __id: "UGFydG5lcjpmYWJyaWstcHJvamVjdHMtZ2FsbGVyeQ==",
+          },
+          __id:
+            "U2hvdzpmYWJyaWstcHJvamVjdHMtZ2FsbGVyeS1mYWJyaWstcHJvamVjdHMtZ2FsbGVyeS1hdC1hcnQtcGFsbS1zcHJpbmdzLTIwMTk=",
+        },
+      },
+    ],
+  },
+  artists_names: {
+    edges: [
+      {
+        node: {
+          name: "00100011",
+          href: "/artist/00100011-1",
+          id: "00100011-1",
+          _id: "5c52df9966715663f8ba7690",
+          __id: "QXJ0aXN0OjAwMTAwMDExLTE=",
+        },
+      },
+      {
+        node: {
+          name: "David Adey",
+          href: "/artist/david-adey",
+          id: "david-adey",
+          _id: "573624967622dd1d1c000194",
+          __id: "QXJ0aXN0OmRhdmlkLWFkZXk=",
+        },
+      },
+    ],
+  },
   image: {
-    image_url: "https://d32dm0rphc51dk.cloudfront.net/o0Zrtm-CgwbV1syD_33DuA/:version.jpg",
+    image_url: "https://d32dm0rphc51dk.cloudfront.net/WHcii__DzI14sEuw5m3qaA/:version.jpg",
     aspect_ratio: 1,
-    url: "https://d32dm0rphc51dk.cloudfront.net/o0Zrtm-CgwbV1syD_33DuA/square.jpg",
+    url: "https://d32dm0rphc51dk.cloudfront.net/WHcii__DzI14sEuw5m3qaA/wide.jpg",
   },
   profile: {
-    id: "art-basel-in-miami-beach-2018",
-    _id: "dfdlfjfua7d8a0_",
-    is_followed: false,
-    name: "art-basel",
     icon: {
-      id: "58ff95298b3b8104783c119c",
+      id: "5c58b4d60961cb5391fbe8d5",
       href: null,
-      height: 279,
-      width: 279,
-      url: "https://d32dm0rphc51dk.cloudfront.net/B1x-CqoWO1KitQnRj7PrrA/untouched-png.png",
+      height: 280,
+      width: 280,
+      url: "https://d32dm0rphc51dk.cloudfront.net/D-QEVpAZcck8VXEgwNrhog/untouched-png.png",
     },
+    __id: "UHJvZmlsZTphcnQtcGFsbS1zcHJpbmdzLTIwMTk=",
+    id: "art-palm-springs-2019",
+    name: "Art Palm Springs 2019",
+    is_followed: false,
   },
-  organizer: {
-    profile: {
-      icon: {
-        id: "58ff95298b3b8104783c119c",
-        href: null,
-        height: 279,
-        width: 279,
-        url: "https://d32dm0rphc51dk.cloudfront.net/B1x-CqoWO1KitQnRj7PrrA/untouched-png.png",
-      },
-      name: "SOFA CHICAGO",
-      __id: "UHJvZmlsZTpzb2ZhLWNoaWNhZ28=",
-    },
-  },
-  start_at: "2018-11-01T17:00:00+00:00",
-  end_at: "2018-11-04T18:00:00+00:00",
+  start_at: "2019-02-15T11:00:00+00:00",
+  end_at: "2019-02-18T17:00:00+00:00",
+  hours:
+    "**Opening Night Preview:** Thursday, February 14 from 5-9pm | VIP Ticket Holders Only\r\n\r\n**General Admission:**\r\nFriday, February 15 | 11am-7pm \r\nSaturday, February 16 | 11am-6pm \r\nSunday, February 17 | 11am-6pm \r\nMonday, February 18 | 12pm-5pm ",
   location: {
-    __id: "TG9jYXRpb246NWJiNjJmMzYyYjVlN2QwMDI5ODliZDhh",
-    id: "5bb62f362b5e7d002989bd8a",
+    __id: "TG9jYXRpb246NWMxN2IxOWQ4ODQxYzQ2ZTM5NGM4MmI2",
+    id: "5c17b19d8841c46e394c82b6",
+    city: "Palm Springs",
     address: "",
-    coordinates: {
-      lat: 25.7949009,
-      lng: -80.134698,
-    },
-    cached: null,
+    address_2: "",
+    postal_code: "92262",
+    summary: "Palm Springs Convention Center\r\n277 N Avenida Caballeros\r\nPalm Springs, CA 92262",
+    coordinates: { lat: 33.828735, lng: -116.537426 },
     day_schedules: null,
-    day_schedule_text: null,
-    displayDaySchedules: [
-      {
-        days: "Monday–Sunday",
-        hours: "Closed",
-      },
-    ],
-    display: "25.794890, -80.134550",
   },
-  counts: {
-    artists: 809,
-    artworks: 2028,
-    partners: 127,
-    partner_shows: 127,
-  },
-  exhibitors_grouped_by_name: [
-    {
-      letter: "3",
-      exhibitors: [
-        {
-          name: "303 Gallery",
-          id: "303 Gallery",
-          profile_id: "303 Gallery",
-        },
-      ],
-    },
-    {
-      letter: "A",
-      exhibitors: [
-        { name: "Acquavella Galleries", id: "Acquavella Galleries", profile_id: "Acquavella Galleries" },
-        { name: "Alan Cristea Gallery", id: "Alan Cristea Gallery", profile_id: "Alan Cristea Gallery" },
-        { name: "Alfonso Artiaco", id: "Alfonso Artiaco", profile_id: "Alfonso Artiaco" },
-        { name: "Altman Siegel", id: "Altman Siegel", profile_id: "Altman Siegel" },
-        { name: "Anat Ebgi", id: "Anat Ebgi", profile_id: "Anat Ebgi" },
-        { name: "Annely Juda Fine Art", id: "Annely Juda Fine Art", profile_id: "Annely Juda Fine Art" },
-        { name: "Anton Kern Gallery", id: "Anton Kern Gallery", profile_id: "Anton Kern Gallery" },
-      ],
-    },
-    {
-      letter: "B",
-      exhibitors: ["Bergamin & Gomide", "Berggruen Gallery", "Blum & Poe", "Boers-Li Gallery", "Bortolami"],
-    },
-    {
-      letter: "C",
-      exhibitors: [
-        "CARDI GALLERY",
-        "Casa Triângulo",
-        "Casey Kaplan",
-        "Cheim & Read",
-        "Cristina Guerra Contemporary Art",
-        "Crown Point Press",
-      ],
-    },
-    {
-      letter: "D",
-      exhibitors: ["Dan Galeria", "DC Moore Gallery"],
-    },
-    {
-      letter: "E",
-      exhibitors: ["Edward Tyler Nahem Fine Art LLC", "Edwynn Houk Gallery", "Eric Firestone Gallery"],
-    },
-    {
-      letter: "F",
-      exhibitors: ["Fergus McCaffrey", "Fortes D'Aloia & Gabriel", "Francis M. Naumann Fine Art"],
-    },
-    {
-      letter: "G",
-      exhibitors: [
-        "Gagosian",
-        "Galerie Chantal Crousel",
-        "Galerie Christophe Gaillard",
-        "galerie frank elbaz",
-        "GALERIE GEORGES-PHILIPPE ET NATHALIE VALLOIS",
-        "Galerie Greta Meert",
-        "Galerie Jérôme Poggi",
-        "GALLERIA CONTINUA",
-        "Gemini G.E.L.",
-        "Gladstone Gallery",
-        "Goodman Gallery",
-        "GRIMM",
-      ],
-    },
-    {
-      letter: "H",
-      exhibitors: ["Haines Gallery", "Hales Gallery", "Hammer Galleries", "Hauser & Wirth", "Howard Greenberg Gallery"],
-    },
-    {
-      letter: "I",
-      exhibitors: ["Ingleby Gallery", "Inman Gallery", "Instituto de Visión"],
-    },
-    {
-      letter: "J",
-      exhibitors: ["James Cohan"],
-    },
-    {
-      letter: "K",
-      exhibitors: ["Kasmin", "Kavi Gupta", "Kayne Griffin Corcoran", "KEWENIG"],
-    },
-    {
-      letter: "M",
-      exhibitors: ["Marian Goodman Gallery", "Marianne Boesky Gallery"],
-    },
-    {
-      letter: "P",
-      exhibitors: ["Peter Blum Gallery", "Pilar Corrias Gallery"],
-    },
-    {
-      letter: "R",
-      exhibitors: ["Rhona Hoffman Gallery", "Richard Gray Gallery"],
-    },
-    {
-      letter: "S",
-      exhibitors: ["Sean Kelly Gallery"],
-    },
-    {
-      letter: "X",
-      exhibitors: ["Xavier Hufkens"],
-    },
-  ],
-  filteredArtworks: {
-    aggregations: [
-      {
-        slice: "PRICE_RANGE",
-        counts: [
-          {
-            id: "*-*",
-            name: "for Sale",
-          },
-          {
-            id: "1000-5000",
-            name: "between $1,000 & $5,000",
-          },
-          {
-            id: "5000-10000",
-            name: "between $5,000 & $10,000",
-          },
-          {
-            id: "10000-50000",
-            name: "between $10,000 & $50,000",
-          },
-          {
-            id: "*-1000",
-            name: "Under $1,000",
-          },
-          {
-            id: "50000-*",
-            name: "over $50,000",
-          },
-        ],
-      },
-      {
-        slice: "MEDIUM",
-        counts: [
-          {
-            id: "sculpture",
-            name: "Sculpture",
-          },
-          {
-            id: "painting",
-            name: "Painting",
-          },
-          {
-            id: "design",
-            name: "Design",
-          },
-          {
-            id: "photography",
-            name: "Photography",
-          },
-          {
-            id: "jewelry",
-            name: "Jewelry",
-          },
-          {
-            id: "work-on-paper",
-            name: "Work on Paper",
-          },
-          {
-            id: "installation",
-            name: "Installation",
-          },
-          {
-            id: "prints",
-            name: "Prints",
-          },
-          {
-            id: "drawing",
-            name: "Drawing",
-          },
-          {
-            id: "film-slash-video",
-            name: "Film/Video",
-          },
-        ],
-      },
-    ],
-    artworks_connection: {
-      edges: [
-        {
-          node: {
-            id: "watanabe-chiaki-links",
-            title: "Links",
-            date: "2018",
-            sale_message: "Sold",
-            is_in_auction: false,
-            is_biddable: false,
-            is_acquireable: false,
-            sale: null,
-            sale_artwork: null,
-            image: {
-              url: "https://d32dm0rphc51dk.cloudfront.net/uF3UWRba84Q4wSrRB-BxKA/large.jpg",
-              aspect_ratio: 1.61,
-            },
-            artists: [
-              {
-                name: "Watanabe Chiaki",
-              },
-            ],
-            partner: {
-              name: "TAI Modern",
-            },
-            href: "/artwork/watanabe-chiaki-links",
-          },
-        },
-        {
-          node: {
-            id: "dylan-martinez-water-bag-number-34",
-            title: "Water Bag #34",
-            date: "2018",
-            sale_message: "$1,800",
-            is_in_auction: false,
-            is_biddable: false,
-            is_acquireable: false,
-            sale: null,
-            sale_artwork: null,
-            image: {
-              url: "https://d32dm0rphc51dk.cloudfront.net/EB-WA2El6g-tII076F5vFw/large.jpg",
-              aspect_ratio: 0.67,
-            },
-            artists: [
-              {
-                name: "Dylan Martinez",
-              },
-            ],
-            partner: {
-              name: "Lyons Wier Gallery",
-            },
-            href: "/artwork/dylan-martinez-water-bag-number-34",
-          },
-        },
-        {
-          node: {
-            id: "dylan-martinez-water-bag-number-23",
-            title: "Water Bag #23",
-            date: "2018",
-            sale_message: "$1,800",
-            is_in_auction: false,
-            is_biddable: false,
-            is_acquireable: false,
-            sale: null,
-            sale_artwork: null,
-            image: {
-              url: "https://d32dm0rphc51dk.cloudfront.net/sAKQugZCVUZ9g5AoVyCJdA/large.jpg",
-              aspect_ratio: 0.67,
-            },
-            artists: [
-              {
-                name: "Dylan Martinez",
-              },
-            ],
-            partner: {
-              name: "Lyons Wier Gallery",
-            },
-            href: "/artwork/dylan-martinez-water-bag-number-23",
-          },
-        },
-        {
-          node: {
-            id: "dylan-martinez-water-bag-number-32",
-            title: "Water Bag #32",
-            date: "2018",
-            sale_message: "$1,800",
-            is_in_auction: false,
-            is_biddable: false,
-            is_acquireable: false,
-            sale: null,
-            sale_artwork: null,
-            image: {
-              url: "https://d32dm0rphc51dk.cloudfront.net/jVS6Bolng37bN8GB0y8qfQ/large.jpg",
-              aspect_ratio: 0.67,
-            },
-            artists: [
-              {
-                name: "Dylan Martinez",
-              },
-            ],
-            partner: {
-              name: "Lyons Wier Gallery",
-            },
-            href: "/artwork/dylan-martinez-water-bag-number-32",
-          },
-        },
-        {
-          node: {
-            id: "dylan-martinez-mach-2",
-            title: "Mach 2",
-            date: "2018",
-            sale_message: "$12,000",
-            is_in_auction: false,
-            is_biddable: false,
-            is_acquireable: false,
-            sale: null,
-            sale_artwork: null,
-            image: {
-              url: "https://d32dm0rphc51dk.cloudfront.net/tnjfaBzOFmFvfj227QjLJg/large.jpg",
-              aspect_ratio: 1.5,
-            },
-            artists: [
-              {
-                name: "Dylan Martinez",
-              },
-            ],
-            partner: {
-              name: "Lyons Wier Gallery",
-            },
-            href: "/artwork/dylan-martinez-mach-2",
-          },
-        },
-        {
-          node: {
-            id: "dylan-martinez-water-bag-trio",
-            title: "Water Bag Trio",
-            date: "2018",
-            sale_message: "$5,400",
-            is_in_auction: false,
-            is_biddable: false,
-            is_acquireable: false,
-            sale: null,
-            sale_artwork: null,
-            image: {
-              url: "https://d32dm0rphc51dk.cloudfront.net/BwEuuw_gYmFs69ENusdang/large.jpg",
-              aspect_ratio: 0.67,
-            },
-            artists: [
-              {
-                name: "Dylan Martinez",
-              },
-            ],
-            partner: {
-              name: "Lyons Wier Gallery",
-            },
-            href: "/artwork/dylan-martinez-water-bag-trio",
-          },
-        },
-      ],
-    },
-  },
-  artists: {
-    edges: [
-      {
-        node: {
-          href: "/tamas",
-          id: "tamas-abel",
-          __id: "QXJ0aXN0OnRhbWFzLWFiZWw=",
-          name: "Tamás Ábel",
-          is_followed: false,
-          nationality: "Hungarian",
-          birthday: "",
-          deathday: "",
-          image: {
-            url: "https://d32dm0rphc51dk.cloudfront.net/mSFWvVbcQezxjjS0ordckg/large.jpg",
-          },
-        },
-      },
-      {
-        node: {
-          href: "/charlie",
-          id: "charlie-aldrich",
-          __id: "QXJ0aXN0OmNoYXJsaWUtYWxkcmljaA==",
-          name: "Charlie Aldrich",
-          is_followed: false,
-          nationality: "United States",
-          birthday: "",
-          deathday: "",
-          image: {
-            url: "https://d32dm0rphc51dk.cloudfront.net/3v-35X7zWI3p6Lk8p6pYhg/large.jpg",
-          },
-        },
-      },
-      {
-        node: {
-          href: "/rik",
-          id: "rik-allen",
-          __id: "QXJ0aXN0OnJpay1hbGxlbg==",
-          name: "Rik Allen",
-          is_followed: false,
-          nationality: "",
-          birthday: "",
-          deathday: "",
-          image: {
-            url: "https://d32dm0rphc51dk.cloudfront.net/8Irjs-pCGNU9VvWg9r8wFg/tall.jpg",
-          },
-        },
-      },
-      {
-        node: {
-          href: "/jean",
-          id: "jean-luc-almond",
-          __id: "QXJ0aXN0OmplYW4tbHVjLWFsbW9uZA==",
-          name: "Jean-Luc Almond",
-          is_followed: false,
-          nationality: "English",
-          birthday: "",
-          deathday: "",
-          image: {
-            url: "https://d32dm0rphc51dk.cloudfront.net/qDxLZGl8BHeP8zCkoeW8tw/tall.jpg",
-          },
-        },
-      },
-      {
-        node: {
-          href: "/amador",
-          id: "amador",
-          __id: "QXJ0aXN0OmFtYWRvcg==",
-          name: "Amador",
-          is_followed: false,
-          nationality: "Spanish",
-          birthday: "1957",
-          deathday: "",
-          image: {
-            url: "https://d32dm0rphc51dk.cloudfront.net/UEPyf29fi9y4wwaHTJ9nqg/large.jpg",
-          },
-        },
-      },
-    ],
-  },
-  __id: "RmFpcjpzb2ZhLWNoaWNhZ28tMjAxOA==",
-  shows_connection: {
-    edges: [
-      {
-        node: {
-          partner: {
-            __typename: "Partner",
-            profile: {
-              id: "spruth-magers",
-              href: "/spruth-magers",
-              name: "Sprüth Magers",
-            },
-          },
-        },
-      },
-      {
-        node: {
-          partner: {
-            __typename: "Partner",
-            profile: {
-              id: "cardi-gallery",
-              href: "/cardi-gallery",
-              name: "CARDI GALLERY",
-            },
-          },
-        },
-      },
-    ],
-  },
+  organizer: { website: null },
+  about:
+    "Art Palm Springs is the premier art fair in the Southwest presenting post-war and contemporary art. This years edition will brings galleries from Asia, Europe, North and South America representing hundreds of artists to the Palm Springs Convention Center. The Fair is strategically scheduled over the extended President’s Day Weekend coinciding with Palm Springs Modernism Week at the height of the Coachella Valley’s season. Art Palm Springs and Modernism Week turn the Desert into a cultural mecca over this weekend, attracting close to 15,000 acquisition oriented art lovers to the Fair year after year.",
+  ticketsLink: "https://www.showclix.com/events/23121",
   shows: {
+    pageInfo: { hasNextPage: true, startCursor: "YXJyYXljb25uZWN0aW9uOjA=", endCursor: "YXJyYXljb25uZWN0aW9uOjQ=" },
     edges: [
       {
         cursor: "YXJyYXljb25uZWN0aW9uOjA=",
         node: {
-          id: "steidel-contemporary-steidel-contemporary-at-sofa-chicago-2018",
-          name: "Steidel Contemporary at SOFA CHICAGO 2018",
-          is_fair_booth: true,
-          partner: {
-            __id: "UGFydG5lcjpzdGVpZGVsLWNvbnRlbXBvcmFyeQ==",
-            name: "Steidel Contemporary",
-            href: "http://www.stei.com",
-          },
-          fair: {
-            name: "SOFA CHICAGO 2018",
-            __id: "RmFpcjpzb2ZhLWNoaWNhZ28tMjAxOA==",
-          },
-          cover_image: {
-            url: "https://d32dm0rphc51dk.cloudfront.net/nltwPbizCU7VKKrjmEiqUA/medium.jpg",
-          },
-          location: {
-            display: "Booth B32",
-            __id: "TG9jYXRpb246NWI5ODIwNjU0OTUzZjEwMDA1ZjY5ZTBh",
-          },
-          profile: {
-            id: "art-basel-in-miami-beach-2018",
-          },
+          id: "blue-rain-gallery-blue-rain-gallery-at-art-palm-springs-2019",
+          _id: "5c2e505c0cf1100007b43866",
           artworks_connection: {
             edges: [
               {
                 node: {
-                  __id: "QXJ0d29yazpkZWJyYS1zdGVpZGVsLWNvcm51LWdsYWNpZWktMQ==",
-                  id: "debra-steidel-cornu-glaciei-1",
-                  image: {
-                    aspect_ratio: 1.52,
-                  },
-                  __fragments: {
-                    Artwork_artwork: {},
-                  },
-                },
-              },
-              {
-                node: {
-                  __id: "QXJ0d29yazptYXJrLWhlbnJ5LWRvb2xpdHRsZS1jb3JhbC12ZXNzZWw=",
-                  id: "mark-henry-doolittle-coral-vessel",
+                  id: "brad-overton-la-reina",
+                  __id: "QXJ0d29yazpicmFkLW92ZXJ0b24tbGEtcmVpbmE=",
                   image: {
                     aspect_ratio: 1,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/OwQwHKPmc4_Vtm_9lkac1w/large.jpg",
                   },
-                  __fragments: {
-                    Artwork_artwork: {},
-                  },
+                  title: "La Reina",
+                  date: "2018",
+                  sale_message: "$20,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Brad Overton", __id: "QXJ0aXN0OmJyYWQtb3ZlcnRvbg==" }],
+                  partner: { name: "Blue Rain Gallery", __id: "UGFydG5lcjpibHVlLXJhaW4tZ2FsbGVyeQ==" },
+                  href: "/artwork/brad-overton-la-reina",
                 },
               },
               {
                 node: {
-                  __id: "QXJ0d29yazp0ZXNzYS1lYXN0bWFuLWNsb3VkLWxhbmRzY2FwZS1vcmFuZ2UtaG90LXBpbms=",
-                  id: "tessa-eastman-cloud-landscape-orange-hot-pink",
+                  id: "brad-overton-coyo",
+                  __id: "QXJ0d29yazpicmFkLW92ZXJ0b24tY295bw==",
                   image: {
-                    aspect_ratio: 1.5,
+                    aspect_ratio: 1.25,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/Fe0qeYt_RkNAm4s4f8Qcdw/large.jpg",
                   },
-                  __fragments: {
-                    Artwork_artwork: {},
-                  },
+                  title: "Coyo",
+                  date: "2018",
+                  sale_message: "$22,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Brad Overton", __id: "QXJ0aXN0OmJyYWQtb3ZlcnRvbg==" }],
+                  partner: { name: "Blue Rain Gallery", __id: "UGFydG5lcjpibHVlLXJhaW4tZ2FsbGVyeQ==" },
+                  href: "/artwork/brad-overton-coyo",
                 },
               },
               {
                 node: {
-                  __id: "QXJ0d29yazp0ZXNzYS1lYXN0bWFuLXNub3ctY2xvdWQtNg==",
-                  id: "tessa-eastman-snow-cloud-6",
+                  id: "brad-overton-cordelia",
+                  __id: "QXJ0d29yazpicmFkLW92ZXJ0b24tY29yZGVsaWE=",
+                  image: {
+                    aspect_ratio: 1.01,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/DHeBmmrch5j-DZd8vaOzNw/large.jpg",
+                  },
+                  title: "Cordelia",
+                  date: "2019",
+                  sale_message: "$20,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Brad Overton", __id: "QXJ0aXN0OmJyYWQtb3ZlcnRvbg==" }],
+                  partner: { name: "Blue Rain Gallery", __id: "UGFydG5lcjpibHVlLXJhaW4tZ2FsbGVyeQ==" },
+                  href: "/artwork/brad-overton-cordelia",
+                },
+              },
+              {
+                node: {
+                  id: "brad-overton-moyetzicate",
+                  __id: "QXJ0d29yazpicmFkLW92ZXJ0b24tbW95ZXR6aWNhdGU=",
                   image: {
                     aspect_ratio: 1,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/o1CCvc4BgGDkXcH-JKAxgw/large.jpg",
                   },
-                  __fragments: {
-                    Artwork_artwork: {},
-                  },
+                  title: "Moyetzicate",
+                  date: "2019",
+                  sale_message: "$24,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Brad Overton", __id: "QXJ0aXN0OmJyYWQtb3ZlcnRvbg==" }],
+                  partner: { name: "Blue Rain Gallery", __id: "UGFydG5lcjpibHVlLXJhaW4tZ2FsbGVyeQ==" },
+                  href: "/artwork/brad-overton-moyetzicate",
                 },
               },
             ],
           },
-          __id: "U2hvdzpzdGVpZGVsLWNvbnRlbXBvcmFyeS1zdGVpZGVsLWNvbnRlbXBvcmFyeS1hdC1zb2ZhLWNoaWNhZ28tMjAxOA==",
+          name: "Blue Rain Gallery at Art Palm Springs 2019",
+          is_fair_booth: true,
+          partner: {
+            __typename: "Partner",
+            name: "Blue Rain Gallery",
+            href: "/blue-rain-gallery",
+            id: "blue-rain-gallery",
+            _id: "58b4acca139b2178c2554ab6",
+            __id: "UGFydG5lcjpibHVlLXJhaW4tZ2FsbGVyeQ==",
+            profile: {
+              _id: "58b4acca139b2178c2554ab7",
+              is_followed: false,
+              __id: "UHJvZmlsZTpibHVlLXJhaW4tZ2FsbGVyeQ==",
+            },
+          },
+          fair: { name: "Art Palm Springs 2019", __id: "RmFpcjphcnQtcGFsbS1zcHJpbmdzLTIwMTk=" },
+          cover_image: { url: "https://d32dm0rphc51dk.cloudfront.net/Z92kkuxZaGBttvjf7V8nzQ/general.jpg" },
+          location: { display: "Booth 407", __id: "TG9jYXRpb246NWMyZTUwNWQwY2YxMTAwMDA3YjQzODY3" },
+          __id: "U2hvdzpibHVlLXJhaW4tZ2FsbGVyeS1ibHVlLXJhaW4tZ2FsbGVyeS1hdC1hcnQtcGFsbS1zcHJpbmdzLTIwMTk=",
+          __typename: "Show",
+        },
+      },
+      {
+        cursor: "YXJyYXljb25uZWN0aW9uOjE=",
+        node: {
+          id: "fabrik-projects-gallery-fabrik-projects-gallery-at-art-palm-springs-2019",
+          _id: "5c51fd3c7db50a090a2824a4",
+          artworks_connection: {
+            edges: [
+              {
+                node: {
+                  id: "betsy-enzensberger-rainbow-popsicle",
+                  __id: "QXJ0d29yazpiZXRzeS1lbnplbnNiZXJnZXItcmFpbmJvdy1wb3BzaWNsZQ==",
+                  image: {
+                    aspect_ratio: 1,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/wOTOb94ywotDDppD4oIZvg/large.jpg",
+                  },
+                  title: "Rainbow Popsicle",
+                  date: "2018",
+                  sale_message: "$250",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Betsy Enzensberger", __id: "QXJ0aXN0OmJldHN5LWVuemVuc2Jlcmdlcg==" }],
+                  partner: { name: "Fabrik Projects Gallery", __id: "UGFydG5lcjpmYWJyaWstcHJvamVjdHMtZ2FsbGVyeQ==" },
+                  href: "/artwork/betsy-enzensberger-rainbow-popsicle",
+                },
+              },
+              {
+                node: {
+                  id: "linda-stelling-be-still-my-beating-heart",
+                  __id: "QXJ0d29yazpsaW5kYS1zdGVsbGluZy1iZS1zdGlsbC1teS1iZWF0aW5nLWhlYXJ0",
+                  image: {
+                    aspect_ratio: 0.6,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/KnsgJ1WL6FvJICcRDjIgnA/large.jpg",
+                  },
+                  title: "Be Still My Beating Heart",
+                  date: "",
+                  sale_message: "$4,200",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Linda Stelling", __id: "QXJ0aXN0OmxpbmRhLXN0ZWxsaW5n" }],
+                  partner: { name: "Fabrik Projects Gallery", __id: "UGFydG5lcjpmYWJyaWstcHJvamVjdHMtZ2FsbGVyeQ==" },
+                  href: "/artwork/linda-stelling-be-still-my-beating-heart",
+                },
+              },
+              {
+                node: {
+                  id: "linda-stelling-fixing-a-hole-where-the-rain-gets-in",
+                  __id: "QXJ0d29yazpsaW5kYS1zdGVsbGluZy1maXhpbmctYS1ob2xlLXdoZXJlLXRoZS1yYWluLWdldHMtaW4=",
+                  image: {
+                    aspect_ratio: 0.75,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/KOMM-Vsk3tQXQPcwPctoOQ/large.jpg",
+                  },
+                  title: "Fixing A Hole Where the Rain Gets In",
+                  date: "",
+                  sale_message: "$3,900",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Linda Stelling", __id: "QXJ0aXN0OmxpbmRhLXN0ZWxsaW5n" }],
+                  partner: { name: "Fabrik Projects Gallery", __id: "UGFydG5lcjpmYWJyaWstcHJvamVjdHMtZ2FsbGVyeQ==" },
+                  href: "/artwork/linda-stelling-fixing-a-hole-where-the-rain-gets-in",
+                },
+              },
+              {
+                node: {
+                  id: "linda-stelling-the-palms",
+                  __id: "QXJ0d29yazpsaW5kYS1zdGVsbGluZy10aGUtcGFsbXM=",
+                  image: {
+                    aspect_ratio: 0.72,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/HnkYu6bs2z-UoG7HOYDNIw/large.jpg",
+                  },
+                  title: "The Palms",
+                  date: "",
+                  sale_message: "$3,900",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Linda Stelling", __id: "QXJ0aXN0OmxpbmRhLXN0ZWxsaW5n" }],
+                  partner: { name: "Fabrik Projects Gallery", __id: "UGFydG5lcjpmYWJyaWstcHJvamVjdHMtZ2FsbGVyeQ==" },
+                  href: "/artwork/linda-stelling-the-palms",
+                },
+              },
+            ],
+          },
+          name: "Fabrik Projects Gallery at Art Palm Springs 2019",
+          is_fair_booth: true,
+          partner: {
+            __typename: "Partner",
+            name: "Fabrik Projects Gallery",
+            href: "/fabrik-gallery",
+            id: "fabrik-projects-gallery",
+            _id: "5941712db202a34d5c754b35",
+            __id: "UGFydG5lcjpmYWJyaWstcHJvamVjdHMtZ2FsbGVyeQ==",
+            profile: {
+              _id: "5941712db202a34d5c754b36",
+              is_followed: false,
+              __id: "UHJvZmlsZTpmYWJyaWstZ2FsbGVyeQ==",
+            },
+          },
+          fair: { name: "Art Palm Springs 2019", __id: "RmFpcjphcnQtcGFsbS1zcHJpbmdzLTIwMTk=" },
+          cover_image: { url: "https://d32dm0rphc51dk.cloudfront.net/2kEMmIYFOu4igk9EglI8lw/medium.jpg" },
+          location: { display: "", __id: "TG9jYXRpb246NWM1MWZkM2Q3ZGI1MGEwOTBhMjgyNGE1" },
+          __id:
+            "U2hvdzpmYWJyaWstcHJvamVjdHMtZ2FsbGVyeS1mYWJyaWstcHJvamVjdHMtZ2FsbGVyeS1hdC1hcnQtcGFsbS1zcHJpbmdzLTIwMTk=",
+          __typename: "Show",
+        },
+      },
+      {
+        cursor: "YXJyYXljb25uZWN0aW9uOjI=",
+        node: {
+          id: "adamar-fine-arts-adamar-fine-arts-at-art-palm-springs-2019",
+          _id: "5c2e505b0cf1100007b43860",
+          artworks_connection: {
+            edges: [
+              {
+                node: {
+                  id: "tom-wesselmann-wildflowers-bouquet-black-two-handled-vase",
+                  __id: "QXJ0d29yazp0b20td2Vzc2VsbWFubi13aWxkZmxvd2Vycy1ib3VxdWV0LWJsYWNrLXR3by1oYW5kbGVkLXZhc2U=",
+                  image: {
+                    aspect_ratio: 0.75,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/-aGYHaUsGfZ4HwmzhEIoRQ/large.jpg",
+                  },
+                  title: "Wildflowers Bouquet Black (two handled vase)",
+                  date: "1988",
+                  sale_message: "$200,000 - 300,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Tom Wesselmann", __id: "QXJ0aXN0OnRvbS13ZXNzZWxtYW5u" }],
+                  partner: { name: "Adamar Fine Arts", __id: "UGFydG5lcjphZGFtYXItZmluZS1hcnRz" },
+                  href: "/artwork/tom-wesselmann-wildflowers-bouquet-black-two-handled-vase",
+                },
+              },
+              {
+                node: {
+                  id: "alex-katz-coca-cola-girls-number-1",
+                  __id: "QXJ0d29yazphbGV4LWthdHotY29jYS1jb2xhLWdpcmxzLW51bWJlci0x",
+                  image: {
+                    aspect_ratio: 1.26,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/md0ufnclf7QiFkqwUvQSCA/large.jpg",
+                  },
+                  title: "Coca Cola Girls #1",
+                  date: "2018",
+                  sale_message: "$15,000 - 20,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Alex Katz", __id: "QXJ0aXN0OmFsZXgta2F0eg==" }],
+                  partner: { name: "Adamar Fine Arts", __id: "UGFydG5lcjphZGFtYXItZmluZS1hcnRz" },
+                  href: "/artwork/alex-katz-coca-cola-girls-number-1",
+                },
+              },
+              {
+                node: {
+                  id: "alex-katz-coca-cola-girls-number-6",
+                  __id: "QXJ0d29yazphbGV4LWthdHotY29jYS1jb2xhLWdpcmxzLW51bWJlci02",
+                  image: {
+                    aspect_ratio: 2.01,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/7Lr7lriGKB9vFvjK7OxcoA/large.jpg",
+                  },
+                  title: "Coca Cola Girls #6",
+                  date: "2018",
+                  sale_message: "$20,000 - 30,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Alex Katz", __id: "QXJ0aXN0OmFsZXgta2F0eg==" }],
+                  partner: { name: "Adamar Fine Arts", __id: "UGFydG5lcjphZGFtYXItZmluZS1hcnRz" },
+                  href: "/artwork/alex-katz-coca-cola-girls-number-6",
+                },
+              },
+              {
+                node: {
+                  id: "damien-hirst-psalm-expectans-expectavi-7",
+                  __id: "QXJ0d29yazpkYW1pZW4taGlyc3QtcHNhbG0tZXhwZWN0YW5zLWV4cGVjdGF2aS03",
+                  image: {
+                    aspect_ratio: 1,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/TPuIgoOfuutcivKlSebJ8Q/large.jpg",
+                  },
+                  title: "Psalm: Expectans Expectavi",
+                  date: "2015",
+                  sale_message: "$15,000 - 20,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Damien Hirst", __id: "QXJ0aXN0OmRhbWllbi1oaXJzdA==" }],
+                  partner: { name: "Adamar Fine Arts", __id: "UGFydG5lcjphZGFtYXItZmluZS1hcnRz" },
+                  href: "/artwork/damien-hirst-psalm-expectans-expectavi-7",
+                },
+              },
+            ],
+          },
+          name: "Adamar Fine Arts at Art Palm Springs 2019",
+          is_fair_booth: true,
+          partner: {
+            __typename: "Partner",
+            name: "Adamar Fine Arts",
+            href: "/adamar-fine-arts",
+            id: "adamar-fine-arts",
+            _id: "54b40a37776f720e459d0500",
+            __id: "UGFydG5lcjphZGFtYXItZmluZS1hcnRz",
+            profile: {
+              _id: "54b40a37776f720e459f0500",
+              is_followed: false,
+              __id: "UHJvZmlsZTphZGFtYXItZmluZS1hcnRz",
+            },
+          },
+          fair: { name: "Art Palm Springs 2019", __id: "RmFpcjphcnQtcGFsbS1zcHJpbmdzLTIwMTk=" },
+          cover_image: { url: "https://d32dm0rphc51dk.cloudfront.net/bW9aZEC-saGXeQHeAGt3lg/larger.jpg" },
+          location: { display: "Booth 108", __id: "TG9jYXRpb246NWMyZTUwNWMwY2YxMTAwMDA3YjQzODYx" },
+          __id: "U2hvdzphZGFtYXItZmluZS1hcnRzLWFkYW1hci1maW5lLWFydHMtYXQtYXJ0LXBhbG0tc3ByaW5ncy0yMDE5",
+          __typename: "Show",
+        },
+      },
+      {
+        cursor: "YXJyYXljb25uZWN0aW9uOjM=",
+        node: {
+          id: "vallarino-fine-art-vallarino-fine-art-at-art-palm-springs-2019",
+          _id: "5c2e506a0cf1100007b438a1",
+          artworks_connection: {
+            edges: [
+              {
+                node: {
+                  id: "karel-appel-figure-1",
+                  __id: "QXJ0d29yazprYXJlbC1hcHBlbC1maWd1cmUtMQ==",
+                  image: {
+                    aspect_ratio: 1.26,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/UkZNg9J41gqfxCF3x5YSAg/large.jpg",
+                  },
+                  title: "Figure",
+                  date: "1987",
+                  sale_message: "Contact For Price",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Karel Appel", __id: "QXJ0aXN0OmthcmVsLWFwcGVs" }],
+                  partner: { name: "Vallarino Fine Art", __id: "UGFydG5lcjp2YWxsYXJpbm8tZmluZS1hcnQ=" },
+                  href: "/artwork/karel-appel-figure-1",
+                },
+              },
+              {
+                node: {
+                  id: "ilya-bolotowsky-ellipse-with-yellows",
+                  __id: "QXJ0d29yazppbHlhLWJvbG90b3dza3ktZWxsaXBzZS13aXRoLXllbGxvd3M=",
+                  image: {
+                    aspect_ratio: 0.71,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/0l0ElDvZ1InQkHzUOsDZUw/large.jpg",
+                  },
+                  title: "Ellipse with Yellows",
+                  date: "1977",
+                  sale_message: "Contact For Price",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Ilya Bolotowsky", __id: "QXJ0aXN0OmlseWEtYm9sb3Rvd3NreQ==" }],
+                  partner: { name: "Vallarino Fine Art", __id: "UGFydG5lcjp2YWxsYXJpbm8tZmluZS1hcnQ=" },
+                  href: "/artwork/ilya-bolotowsky-ellipse-with-yellows",
+                },
+              },
+              {
+                node: {
+                  id: "ilya-bolotowsky-untitled-34",
+                  __id: "QXJ0d29yazppbHlhLWJvbG90b3dza3ktdW50aXRsZWQtMzQ=",
+                  image: {
+                    aspect_ratio: 0.82,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/vazk_oud_vZlxYuwaBflsA/large.jpg",
+                  },
+                  title: "Untitled",
+                  date: "1979",
+                  sale_message: "Contact For Price",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Ilya Bolotowsky", __id: "QXJ0aXN0OmlseWEtYm9sb3Rvd3NreQ==" }],
+                  partner: { name: "Vallarino Fine Art", __id: "UGFydG5lcjp2YWxsYXJpbm8tZmluZS1hcnQ=" },
+                  href: "/artwork/ilya-bolotowsky-untitled-34",
+                },
+              },
+              {
+                node: {
+                  id: "james-brooks-garee",
+                  __id: "QXJ0d29yazpqYW1lcy1icm9va3MtZ2FyZWU=",
+                  image: {
+                    aspect_ratio: 1.15,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/3iKEv7QdqzHo4nv4Ha9qTw/large.jpg",
+                  },
+                  title: "Garee",
+                  date: "1969",
+                  sale_message: "Contact For Price",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "James Brooks", __id: "QXJ0aXN0OmphbWVzLWJyb29rcw==" }],
+                  partner: { name: "Vallarino Fine Art", __id: "UGFydG5lcjp2YWxsYXJpbm8tZmluZS1hcnQ=" },
+                  href: "/artwork/james-brooks-garee",
+                },
+              },
+            ],
+          },
+          name: "Vallarino Fine Art at Art Palm Springs 2019",
+          is_fair_booth: true,
+          partner: {
+            __typename: "Partner",
+            name: "Vallarino Fine Art",
+            href: "/vallarino-fine-art",
+            id: "vallarino-fine-art",
+            _id: "4e7b9b8392112b000100682b",
+            __id: "UGFydG5lcjp2YWxsYXJpbm8tZmluZS1hcnQ=",
+            profile: {
+              _id: "5159da8d9a608324390000e1",
+              is_followed: false,
+              __id: "UHJvZmlsZTp2YWxsYXJpbm8tZmluZS1hcnQ=",
+            },
+          },
+          fair: { name: "Art Palm Springs 2019", __id: "RmFpcjphcnQtcGFsbS1zcHJpbmdzLTIwMTk=" },
+          cover_image: { url: "https://d32dm0rphc51dk.cloudfront.net/Bwu6LjbuAg0iWDKtfgH2Hw/medium.jpg" },
+          location: { display: "Booth 303", __id: "TG9jYXRpb246NWMyZTUwNmIwY2YxMTAwMDA3YjQzOGEy" },
+          __id: "U2hvdzp2YWxsYXJpbm8tZmluZS1hcnQtdmFsbGFyaW5vLWZpbmUtYXJ0LWF0LWFydC1wYWxtLXNwcmluZ3MtMjAxOQ==",
+          __typename: "Show",
+        },
+      },
+      {
+        cursor: "YXJyYXljb25uZWN0aW9uOjQ=",
+        node: {
+          id: "simard-bilodeau-contemporary-simard-bilodeau-contemporary-at-art-palm-springs-2019",
+          _id: "5c61a65ce6cbe34a2677f756",
+          artworks_connection: {
+            edges: [
+              {
+                node: {
+                  id: "carrie-pearce-rococo",
+                  __id: "QXJ0d29yazpjYXJyaWUtcGVhcmNlLXJvY29jbw==",
+                  image: {
+                    aspect_ratio: 0.66,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/h-zCD06TPPGPG3xRhmHpdQ/large.jpg",
+                  },
+                  title: "Rococo",
+                  date: "2019",
+                  sale_message: "$12,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Carrie Pearce", __id: "QXJ0aXN0OmNhcnJpZS1wZWFyY2U=" }],
+                  partner: {
+                    name: "Simard Bilodeau Contemporary",
+                    __id: "UGFydG5lcjpzaW1hcmQtYmlsb2RlYXUtY29udGVtcG9yYXJ5",
+                  },
+                  href: "/artwork/carrie-pearce-rococo",
+                },
+              },
+              {
+                node: {
+                  id: "yalda-sepahpour-golnar-i",
+                  __id: "QXJ0d29yazp5YWxkYS1zZXBhaHBvdXItZ29sbmFyLWk=",
+                  image: {
+                    aspect_ratio: 1.54,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/sOIgbNlE3sXYkZnj2lkQeg/large.jpg",
+                  },
+                  title: "Golnar I",
+                  date: "2019",
+                  sale_message: "Sold",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Yalda Sepahpour", __id: "QXJ0aXN0OnlhbGRhLXNlcGFocG91cg==" }],
+                  partner: {
+                    name: "Simard Bilodeau Contemporary",
+                    __id: "UGFydG5lcjpzaW1hcmQtYmlsb2RlYXUtY29udGVtcG9yYXJ5",
+                  },
+                  href: "/artwork/yalda-sepahpour-golnar-i",
+                },
+              },
+              {
+                node: {
+                  id: "julie-bell-venus-clothed-in-flowers",
+                  __id: "QXJ0d29yazpqdWxpZS1iZWxsLXZlbnVzLWNsb3RoZWQtaW4tZmxvd2Vycw==",
+                  image: {
+                    aspect_ratio: 0.5,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/2GC2s8xIV8dPRN3UsPYLkg/large.jpg",
+                  },
+                  title: "Venus Clothed in Flowers",
+                  date: "",
+                  sale_message: "$12,000",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Julie Bell", __id: "QXJ0aXN0Omp1bGllLWJlbGw=" }],
+                  partner: {
+                    name: "Simard Bilodeau Contemporary",
+                    __id: "UGFydG5lcjpzaW1hcmQtYmlsb2RlYXUtY29udGVtcG9yYXJ5",
+                  },
+                  href: "/artwork/julie-bell-venus-clothed-in-flowers",
+                },
+              },
+              {
+                node: {
+                  id: "val-ciel-etoile-2",
+                  __id: "QXJ0d29yazp2YWwtY2llbC1ldG9pbGUtMg==",
+                  image: {
+                    aspect_ratio: 0.67,
+                    url: "https://d32dm0rphc51dk.cloudfront.net/2C8qTfBZDmrk81_6z1hKlA/large.jpg",
+                  },
+                  title: "Ciel Étoilé",
+                  date: "",
+                  sale_message: "$14,800",
+                  is_in_auction: false,
+                  is_biddable: false,
+                  is_acquireable: false,
+                  is_offerable: false,
+                  sale: null,
+                  sale_artwork: null,
+                  artists: [{ name: "Val", __id: "QXJ0aXN0OnZhbA==" }],
+                  partner: {
+                    name: "Simard Bilodeau Contemporary",
+                    __id: "UGFydG5lcjpzaW1hcmQtYmlsb2RlYXUtY29udGVtcG9yYXJ5",
+                  },
+                  href: "/artwork/val-ciel-etoile-2",
+                },
+              },
+            ],
+          },
+          name: "Simard Bilodeau Contemporary at Art Palm Springs 2019",
+          is_fair_booth: true,
+          partner: {
+            __typename: "Partner",
+            name: "Simard Bilodeau Contemporary",
+            href: "/simard-bilodeau-contemporary",
+            id: "simard-bilodeau-contemporary",
+            _id: "54cacdda7261695f96470200",
+            __id: "UGFydG5lcjpzaW1hcmQtYmlsb2RlYXUtY29udGVtcG9yYXJ5",
+            profile: {
+              _id: "54cacdda7261695f96490200",
+              is_followed: false,
+              __id: "UHJvZmlsZTpzaW1hcmQtYmlsb2RlYXUtY29udGVtcG9yYXJ5",
+            },
+          },
+          fair: { name: "Art Palm Springs 2019", __id: "RmFpcjphcnQtcGFsbS1zcHJpbmdzLTIwMTk=" },
+          cover_image: { url: "https://d32dm0rphc51dk.cloudfront.net/h-zCD06TPPGPG3xRhmHpdQ/larger.jpg" },
+          location: { display: "Booth 310", __id: "TG9jYXRpb246NWM2MWE2NWNlNmNiZTM0YTI2NzdmNzU3" },
+          __id:
+            "U2hvdzpzaW1hcmQtYmlsb2RlYXUtY29udGVtcG9yYXJ5LXNpbWFyZC1iaWxvZGVhdS1jb250ZW1wb3JhcnktYXQtYXJ0LXBhbG0tc3ByaW5ncy0yMDE5",
           __typename: "Show",
         },
       },
     ],
   },
-  links:
-    "[Palm Beach Modern + Contempoary](http://www.artpbfair.com/)\r\n[Facebook](https://www.facebook.com/PalmBeachModernandContemporary) | [Instagram](https://www.instagram.com/artmiamifairs/) | [Twitter](https://twitter.com/PB_Modern)",
-  about:
-    "Cillum adipisicing dolore qui ullamco deserunt ut in. In ad do laboris fugiat nostrud. Officia et duis sunt velit cupidatat irure.\r\n\r\nAdipisicing aliqua sunt magna nisi qui mollit non amet commodo ad ex eu. Nostrud nostrud excepteur sint esse occaecat qui et magna reprehenderit. Non do eiusmod ullamco consequat.\r\n\r\nCommodo exercitation aliqua nostrud minim sint laboris et. Fugiat elit labore magna Lorem aliqua ex nulla ea in sunt consequat. Fugiat tempor minim ex ex ullamco quis ullamco ea. Proident consectetur pariatur aliqua minim voluptate ad sunt sint aliqua mollit ullamco enim proident. Aliquip adipisicing elit ad mollit ad magna est officia nisi mollit eu. Cupidatat aute ex deserunt ad voluptate labore ipsum voluptate. Elit proident nisi labore deserunt cupidatat exercitation dolor nulla sint mollit in.",
-  ticketsLink: "https://ticket.artbasel.com/MCH/miamibeach2018/Shop",
 }

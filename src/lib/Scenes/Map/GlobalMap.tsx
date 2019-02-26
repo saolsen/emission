@@ -224,7 +224,7 @@ export const GlobalMapContainer = createRefetchContainer(
           lng
         }
 
-        shows(discoverable: true, first: 50, sort: START_AT_ASC) {
+        shows(discoverable: true, first: 200, sort: START_AT_ASC) {
           edges {
             node {
               id

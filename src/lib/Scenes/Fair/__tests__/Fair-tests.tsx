@@ -25,17 +25,17 @@ describe("Fair", () => {
           }
         `}
         mockData={{
-          Fair: () => fairFixture,
+          fair: fairFixture,
         }}
       />
     )
   })
 
-  xit("renders properly", () => {
+  it("renders properly", () => {
     expect(tree.html()).toMatchSnapshot()
   })
 
-  xit("handles navigation to FairMoreInfo", () => {
+  it("handles navigation to FairMoreInfo", () => {
     const mockedPush = jest.fn()
     tree.find(Fair).instance().navigator = { push: mockedPush }
 

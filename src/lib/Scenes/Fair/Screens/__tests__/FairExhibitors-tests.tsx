@@ -2,7 +2,7 @@ import { MockRelayRenderer } from "lib/tests/MockRelayRenderer"
 import { renderUntil } from "lib/tests/renderUntil"
 import React from "react"
 import { graphql } from "react-relay"
-import { fairFixture } from "../../__fixtures__"
+import { fairFixture } from "../../__fixtures__/fairExhibitors"
 import { FairExhibitors } from "../FairExhibitors"
 
 jest.unmock("react-relay")
@@ -28,8 +28,8 @@ it("renders properly", async () => {
           }
         }
       `}
-      mockResolvers={{
-        Fair: () => fairFixture,
+      mockData={{
+        fair: fairFixture,
       }}
     />
   )
@@ -40,6 +40,7 @@ it("renders properly", async () => {
 
   // A "random" set of the exhibitors, we should show the letter
   // and all the exhibitors
+  console.log(fairFixture.exhibitors_grouped_by_name)
   const exhibitors = fairFixture.exhibitors_grouped_by_name[1]
   expect(htmlDom).toContain(exhibitors.letter)
 

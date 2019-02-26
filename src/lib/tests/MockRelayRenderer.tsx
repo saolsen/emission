@@ -156,7 +156,7 @@ export class MockRelayRenderer<T extends OperationBase = OperationDefaults> exte
     }
 
     const network = mockData
-      ? createMockNetworkLayer2(mockData, mockMutationResults)
+      ? createMockNetworkLayer2({ mockData, mockMutationResults })
       : createMockNetworkLayer({
           Query: () => ({}),
           ...mockResolvers,
