@@ -17,6 +17,7 @@
 ### Master
 
 - Fix for the count of artworks in a show - orta
+- Adds clickable links for maps - orta
 
 ### 1.8.4
 
