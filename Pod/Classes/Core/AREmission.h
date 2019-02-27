@@ -2,7 +2,7 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBridgeModule.h>
 
-@class AREventsModule, ARSwitchBoardModule, ARTemporaryAPIModule, ARRefineOptionsModule, ARWorksForYouModule, ARTakeCameraPhotoModule, RCTBridge, ARNotificationsManager, ARGraphQLQueryPreloader, ARGraphQLQueryCache;
+@class AREventsModule, ARSwitchBoardModule, ARTemporaryAPIModule, ARRefineOptionsModule, ARWorksForYouModule, ARTakeCameraPhotoModule, RCTBridge, ARNotificationsManager, ARGraphQLQueryPreloader, ARGraphQLQueryCache, ARUserIntentModule;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -49,6 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong, readonly) RCTBridge *bridge;
 @property (nonatomic, strong, readonly) AREventsModule *eventsModule;
+@property (nonatomic, strong, readonly) ARUserIntentModule *intentionModule;
 @property (nonatomic, strong, readonly) ARSwitchBoardModule *switchBoardModule;
 @property (nonatomic, strong, readonly) ARTemporaryAPIModule *APIModule;
 @property (nonatomic, strong, readonly) ARRefineOptionsModule *refineModule;

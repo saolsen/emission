@@ -9,6 +9,7 @@
 #import "ARCocoaConstantsModule.h"
 #import "ARGraphQLQueryPreloader.h"
 #import "ARGraphQLQueryCache.h"
+#import "ARUserIntentModule.h"
 
 #import <SentryReactNative/RNSentry.h>
 
@@ -100,6 +101,7 @@ static AREmission *_sharedInstance = nil;
     // When adding a new native module, remember to add it
     // to the array of modules below.
     _eventsModule = [AREventsModule new];
+    _intentionModule = [ARUserIntentModule new];
     _switchBoardModule = [ARSwitchBoardModule new];
     _APIModule = [ARTemporaryAPIModule new];
     _refineModule = [ARRefineOptionsModule new];
@@ -123,6 +125,7 @@ static AREmission *_sharedInstance = nil;
         _notificationsManagerModule,
         _graphQLQueryPreloaderModule,
         _graphQLQueryCacheModule,
+        _intentionModule,
         [ARCocoaConstantsModule new],
     ];
 
