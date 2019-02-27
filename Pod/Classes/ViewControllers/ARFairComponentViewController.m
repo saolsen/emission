@@ -31,4 +31,16 @@
     return self;
 }
 
+// Don't support rotation in iPhone
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPhone ? UIInterfaceOrientationMaskAll : UIInterfaceOrientationMaskAllButUpsideDown;
+}
+
+- (BOOL)shouldAutorotate
+{
+    return UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPhone;
+}
+
 @end

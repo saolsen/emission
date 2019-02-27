@@ -17,6 +17,7 @@
 ### Master
 
 - Fixes fair view crash on fairs with no profiles - ash
+- Don't support rotation in phones for Fair/Show - orta
 
 ### 1.8.7
 
