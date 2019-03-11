@@ -48,6 +48,7 @@
 - Set min zoom size on map - luc
 - Fixes map background sizing - luc
 - Adds styling on single map points and clusters to indicate selection - ashley
+- Updates show and fair SVG map pin icons - ashley
 
 ### 1.8.14
 
