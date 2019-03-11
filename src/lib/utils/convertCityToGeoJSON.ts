@@ -25,7 +25,7 @@ export const showsToGeoCityShow = (edges: Show[]): Show[] =>
   edges.map(node => {
     return {
       ...node,
-      icon: node.is_followed ? "pin-saved" : "pin",
+      icon: node.is_followed ? "pin-saved-2" : "pin2",
     }
   })
 
@@ -33,7 +33,7 @@ export const fairToGeoCityFairs = (edges: Fair[]): Fair[] =>
   edges.map(node => {
     return {
       ...node,
-      icon: "pin",
+      icon: "pin-fair-2",
     }
   })
 
