@@ -91,6 +91,8 @@ PODS:
     - React/Core (= 0.57.7)
   - react-native-mapbox-gl (6.1.4):
     - React
+  - react-native-navigator-ios (1.0.0):
+    - React
   - React/Core (0.57.7):
     - yoga (= 0.57.7.React)
   - React/CxxBridge (0.57.7):
@@ -173,6 +175,7 @@ DEPENDENCIES:
   - Keys (from `Pods/CocoaPodsKeys`)
   - Pulley (from `https://github.com/l2succes/Pulley.git`, branch `master`)
   - "react-native-mapbox-gl (from `../node_modules/@mapbox/react-native-mapbox-gl`)"
+  - react-native-navigator-ios (from `../node_modules/react-native-navigator-ios`)
   - React/DevSupport (from `../node_modules/react-native`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - SAMKeychain
@@ -227,6 +230,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
   react-native-mapbox-gl:
     :path: "../node_modules/@mapbox/react-native-mapbox-gl"
+  react-native-navigator-ios:
+    :path: "../node_modules/react-native-navigator-ios"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   SentryReactNative:
@@ -270,6 +275,7 @@ SPEC CHECKSUMS:
   Pulley: 2679a2b5a9714c5eb760b1fbb535d15c60e50fb4
   React: 67899bbb285ceb9b4ee1c88b3991602ba5772ad2
   react-native-mapbox-gl: b7309e99290963cc7fe0e34db86c6e16890cfcee
+  react-native-navigator-ios: 93db84cc26b6f8d776e1f504c56082f593efcd09
   RNSVG: 36f6615444ab569023444e09b01a1900d964e967
   SAMKeychain: 1fc9ae02f576365395758b12888c84704eebc423
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
@@ -281,6 +287,6 @@ SPEC CHECKSUMS:
   "UIView+BooleanAnimations": a760be9a066036e55f298b7b7350a6cb14cfcd97
   yoga: 192d724e53380b783e09b7d687a55cd8ed5188be
 
-PODFILE CHECKSUM: 1ccdde56e14a7d26fbc871fe040f9922f4385473
+PODFILE CHECKSUM: 8f4d93cd92ae924f3d084637179da22ed5522371
 
 COCOAPODS: 1.6.0
