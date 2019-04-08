@@ -545,10 +545,12 @@ export class GlobalMap extends React.Component<Props, State> {
 
   onPressMap = () => {
     if (!this.state.isSavingShow) {
-      this.setState({
-        activeShows: [],
-        activePin: null,
-      })
+      this.setState(
+        {
+          activeShows: [],
+        },
+        this.renderSelectedPin
+      )
     }
   }
 
