@@ -59,6 +59,7 @@ export default class TextInputField extends React.Component<TextInputProps, Stat
     this.state = { focused: false }
   }
   render() {
+    const { onFocus, onBlur } = this.props.text
     return (
       <View style={[this.props.style, { flex: 1, maxHeight: 40 }]}>
         <View style={{ flexDirection: "row", height: 40 }}>
@@ -73,18 +74,8 @@ export default class TextInputField extends React.Component<TextInputProps, Stat
               placeholderTextColor={this.state.focused ? "white" : Colors.GraySemibold}
               selectionColor={Colors.GrayMedium}
               {...this.props.text}
-              onFocus={e =>
-                this.setState(
-                  { focused: true },
-                  () => this.props.text && this.props.text.onFocus && this.props.text.onFocus(e)
-                )
-              }
-              onBlur={e =>
-                this.setState(
-                  { focused: false },
-                  () => this.props.text && this.props.text.onBlur && this.props.text.onBlur(e)
-                )
-              }
+              onFocus={e => this.setState({ focused: true }, () => onFocus && onFocus(e))}
+              onBlur={e => this.setState({ focused: false }, () => onBlur && onBlur(e))}
             />
           )}
 

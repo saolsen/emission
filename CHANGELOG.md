@@ -20,6 +20,7 @@
 - Fixes overflowing Save button on small screen devices - ashley
 - Moves fair open hours display to metaphysics - kieran
 - Upgrade to React Native 0.59.2 - orta/alloy
+- Fixes crash with missing onBlur/onFocus props - ash
 
 ### 1.9.4
 
