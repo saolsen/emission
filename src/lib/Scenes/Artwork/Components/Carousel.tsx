@@ -1,6 +1,8 @@
-import { Flex } from "@artsy/palette"
-import React, { useMemo, useRef } from "react"
-import { Dimensions, FlatList, PanResponder, Text, View } from "react-native"
+import { space } from "@artsy/palette"
+import { StaticBackButton } from "lib/Components/Bidding/Components/BackButton"
+import React, { useCallback, useMemo, useState } from "react"
+import { Dimensions, FlatList, Image, Modal, SafeAreaView, TouchableWithoutFeedback, View } from "react-native"
+import ImageViewer from "react-native-image-zoom-viewer"
 
 interface ImageProps {
   imageURL: string
@@ -46,7 +48,28 @@ function getMeasurements(item: ImageProps) {
   }
 }
 
-export function Carousel({ sources }: CarouselProps) {
+export function FullScreenCarousel({
+  sources,
+  onDismiss,
+  imageIndex,
+}: CarouselProps & { imageIndex: number; onDismiss(): void }) {
+  const images = useMemo(() => sources.map(({ imageURL }) => ({ url: imageURL })), [sources])
+
+  return (
+    <Modal>
+      <ImageViewer
+        index={imageIndex}
+        imageUrls={images}
+        backgroundColor="white"
+        onSwipeDown={onDismiss}
+        enableSwipeDown
+      />
+      <StaticBackButton onBack={onDismiss} top={space(3) + space(6)} />
+    </Modal>
+  )
+}
+
+export const Carousel: React.FC<CarouselProps> = ({ sources }) => {
   const measurements = useMemo(
     () => {
       const result: Measurements[] = []
@@ -70,7 +93,16 @@ export function Carousel({ sources }: CarouselProps) {
   )
 
   const offsets = useMemo(() => measurements.map(({ cumulativeOffset }) => cumulativeOffset), [measurements])
-  console.log({ offsets })
+  const [fullScreen, setFullScreen] = useState(false)
+  const [imageIndex, setImageIndex] = useState(0)
+
+  const onScroll = useCallback(
+    e => {
+      const newPageNum = Math.round(e.nativeEvent.contentOffset.x / windowWidth)
+      setImageIndex(newPageNum)
+    },
+    [setImageIndex]
+  )
   return (
     <View>
       <FlatList<ImageProps>
@@ -79,6 +111,8 @@ export function Carousel({ sources }: CarouselProps) {
         showsHorizontalScrollIndicator={false}
         snapToOffsets={offsets}
         decelerationRate="fast"
+        keyExtractor={item => item.imageURL}
+        onScroll={onScroll}
         renderItem={({ item, index }) => {
           let styles = getMeasurements(item)
           if (index > 0) {
@@ -86,18 +120,20 @@ export function Carousel({ sources }: CarouselProps) {
             styles = { ...styles, marginLeft: Math.max(styles.marginLeft - prevStyles.marginLeft, 0) }
           }
           return (
-            <Flex
-              alignItems="center"
-              justifyContent="center"
-              key={index}
-              style={{
-                ...styles,
-                backgroundColor: index % 2 ? "palevioletred" : "blue",
-              }}
-            />
+            <TouchableWithoutFeedback onPress={() => setFullScreen(true)}>
+              <Image
+                source={{ uri: item.imageURL }}
+                style={{
+                  ...styles,
+                }}
+              />
+            </TouchableWithoutFeedback>
           )
         }}
       />
+      {fullScreen && (
+        <FullScreenCarousel imageIndex={imageIndex} sources={sources} onDismiss={() => setFullScreen(false)} />
+      )}
     </View>
   )
 }

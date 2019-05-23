@@ -87,6 +87,7 @@
     "react": "16.8.3",
     "react-native": "0.59.2",
     "react-native-hyperlink": "0.0.11",
+    "react-native-image-zoom-viewer": "^2.2.26",
     "react-native-navigator-ios": "https://github.com/ashfurrow/react-native-navigator-ios#license_podspec",
     "react-native-parallax-scroll-view": "orta/react-native-parallax-scroll-view",
     "react-native-scrollable-tab-view": "^0.9.0",
