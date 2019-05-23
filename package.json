@@ -27,7 +27,7 @@
     "danger": "danger",
     "start": "yarn start-servers",
     "start-servers": "concurrently --kill-others 'yarn start-packager' 'yarn relay --watch' 'yarn storybook'",
-    "start-packager": "env REACT_DEBUGGER=\"$([ -d '/Applications/React Native Debugger.app' ] && echo \"open 'rndebugger://set-debugger-loc?host=localhost&port=8081' --args\")\" node node_modules/react-native/local-cli/cli.js start",
+    "start-packager": "env REACT_DEBUGGER=\"$([ -d '/Applications/React Native Debugger.app' ] && echo \"open 'rndebugger://set-debugger-loc?host=localhost&port=8081' --args\")\" node node_modules/react-native/local-cli/cli.js start --reset-cache",
     "storybook": "storybook start -p 9001 -c .storybook --skip-packager",
     "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
     "open-sim": "open -a Simulator",

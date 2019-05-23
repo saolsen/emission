@@ -17,6 +17,7 @@ interface Props {
 
 export class Artwork extends React.Component<Props> {
   render() {
+    console.log("Them props", this.props)
     return (
       <View>
         <Flex width="100%" style={{ backgroundColor: "gray" }} height={340} />

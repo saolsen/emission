@@ -1,8 +1,9 @@
-import { space } from "@artsy/palette"
+import { color, Flex, space, Spacer } from "@artsy/palette"
 import { StaticBackButton } from "lib/Components/Bidding/Components/BackButton"
 import React, { useCallback, useMemo, useState } from "react"
 import { Dimensions, FlatList, Image, Modal, SafeAreaView, TouchableWithoutFeedback, View } from "react-native"
 import ImageViewer from "react-native-image-zoom-viewer"
+import { Spring } from "react-spring/dist/native.cjs.js"
 
 interface ImageProps {
   imageURL: string
@@ -134,6 +135,59 @@ export const Carousel: React.FC<CarouselProps> = ({ sources }) => {
       {fullScreen && (
         <FullScreenCarousel imageIndex={imageIndex} sources={sources} onDismiss={() => setFullScreen(false)} />
       )}
+      <Spacer mb={space(2)} />
+      <Flex flexDirection="row" justifyContent="center">
+        {sources.map((_, index) => (
+          <PaginationDot key={index} diameter={5} selected={index === imageIndex} />
+        ))}
+      </Flex>
     </View>
   )
 }
+
+const PaginationDot: React.FC<{ diameter: number; selected: boolean }> = ({ diameter, selected }) => {
+  return (
+    <View
+      style={{
+        width: diameter,
+        height: diameter,
+        marginHorizontal: diameter * 0.8,
+      }}
+    >
+      <Dot diameter={diameter} backgroundColor={color("black10")} />
+      <Spring
+        from={{
+          diameter: selected ? 0 : diameter,
+        }}
+        to={{
+          diameter: selected ? diameter : 0,
+        }}
+      >
+        {props => <Dot diameter={props.diameter} backgroundColor="black" />}
+      </Spring>
+    </View>
+  )
+}
+
+const Dot: React.FC<{ diameter: number; backgroundColor: string }> = ({ diameter, backgroundColor }) => (
+  <View
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      justifyContent: "center",
+      alignItems: "center",
+    }}
+  >
+    <View
+      style={{
+        borderRadius: diameter / 2,
+        width: diameter,
+        height: diameter,
+        backgroundColor,
+      }}
+    />
+  </View>
+)
