@@ -2,12 +2,15 @@ import { color, Flex, space, Spacer } from "@artsy/palette"
 import { StaticBackButton } from "lib/Components/Bidding/Components/BackButton"
 import React, { useCallback, useMemo, useState } from "react"
 import { Dimensions, FlatList, Image, Modal, SafeAreaView, TouchableWithoutFeedback, View } from "react-native"
+import ImageZoom from "react-native-image-pan-zoom"
 import ImageViewer from "react-native-image-zoom-viewer"
 import { Spring } from "react-spring/dist/native.cjs.js"
 
 interface ImageProps {
   imageURL: string
   aspectRatio: number
+  width: number
+  height: number
 }
 interface Measurements {
   width: number
@@ -23,21 +26,33 @@ interface CarouselProps {
 }
 
 const windowWidth = Dimensions.get("window").width
+const windowHeight = Dimensions.get("window").height
 const cardHeight = windowWidth >= 375 ? 340 : 290
+const cardBoundingBox = { width: windowWidth, height: cardHeight }
+const windowBoundingBox = { width: windowWidth, height: windowHeight }
 
-function getMeasurements(item: ImageProps) {
+function getMeasurements({
+  item,
+  boundingBox,
+}: {
+  item: ImageProps
+  boundingBox: {
+    width: number
+    height: number
+  }
+}) {
   // aspect ratio = width / height
   // width = aspect ratio * height
   // height = width / aspect ratio
-  let height = cardHeight
-  let width = item.aspectRatio * cardHeight
-  if (width > windowWidth) {
-    width = windowWidth
-    height = windowWidth / item.aspectRatio
+  let height = boundingBox.height
+  let width = item.aspectRatio * boundingBox.height
+  if (width > boundingBox.width) {
+    width = boundingBox.width
+    height = boundingBox.width / item.aspectRatio
   }
 
-  const horizontalMargin = (windowWidth - width) / 2
-  const verticalMargin = (cardHeight - height) / 2
+  const horizontalMargin = (boundingBox.width - width) / 2
+  const verticalMargin = (boundingBox.height - height) / 2
 
   return {
     width,
@@ -53,17 +68,51 @@ export function FullScreenCarousel({
   sources,
   onDismiss,
   imageIndex,
-}: CarouselProps & { imageIndex: number; onDismiss(): void }) {
+  onScroll,
+}: CarouselProps & { imageIndex: number; onDismiss(): void; onScroll(): void }) {
   const images = useMemo(() => sources.map(({ imageURL }) => ({ url: imageURL })), [sources])
 
   return (
     <Modal>
+      {/*
       <ImageViewer
         index={imageIndex}
         imageUrls={images}
         backgroundColor="white"
         onSwipeDown={onDismiss}
         enableSwipeDown
+      />
+      */}
+      <FlatList<ImageProps>
+        data={sources}
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        snapToInterval={windowWidth}
+        decelerationRate="fast"
+        keyExtractor={item => item.imageURL}
+        onScroll={onScroll}
+        renderItem={({ item, index }) => {
+          const { width, height } = getMeasurements({
+            item,
+            boundingBox: windowBoundingBox,
+          })
+          return (
+            <ImageZoom
+              cropWidth={Dimensions.get("window").width}
+              cropHeight={Dimensions.get("window").height}
+              imageWidth={width}
+              imageHeight={height}
+            >
+              <Image
+                style={{
+                  width,
+                  height,
+                }}
+                source={{ uri: item.imageURL }}
+              />
+            </ImageZoom>
+          )
+        }}
       />
       <StaticBackButton onBack={onDismiss} top={space(3) + space(6)} />
     </Modal>
@@ -75,7 +124,7 @@ export const Carousel: React.FC<CarouselProps> = ({ sources }) => {
     () => {
       const result: Measurements[] = []
       for (const item of sources) {
-        const sizes = getMeasurements(item)
+        const sizes = getMeasurements({ item, boundingBox: cardBoundingBox })
         if (result.length === 0) {
           result.push({ ...sizes, cumulativeOffset: 0 })
         } else {
@@ -115,9 +164,9 @@ export const Carousel: React.FC<CarouselProps> = ({ sources }) => {
         keyExtractor={item => item.imageURL}
         onScroll={onScroll}
         renderItem={({ item, index }) => {
-          let styles = getMeasurements(item)
+          let styles = getMeasurements({ item, boundingBox: cardBoundingBox })
           if (index > 0) {
-            const prevStyles = getMeasurements(sources[index - 1])
+            const prevStyles = getMeasurements({ item: sources[index - 1], boundingBox: cardBoundingBox })
             styles = { ...styles, marginLeft: Math.max(styles.marginLeft - prevStyles.marginLeft, 0) }
           }
           return (
@@ -154,7 +203,6 @@ const PaginationDot: React.FC<{ diameter: number; selected: boolean }> = ({ diam
         marginHorizontal: diameter * 0.8,
       }}
     >
-      <Dot diameter={diameter} backgroundColor={color("black10")} />
       <Spring
         from={{
           diameter: selected ? 0 : diameter,
@@ -162,8 +210,14 @@ const PaginationDot: React.FC<{ diameter: number; selected: boolean }> = ({ diam
         to={{
           diameter: selected ? diameter : 0,
         }}
+        config={{ tension: 180, friction: 12 }}
       >
-        {props => <Dot diameter={props.diameter} backgroundColor="black" />}
+        {props => (
+          <>
+            <Dot diameter={10 - diameter} backgroundColor={color("black10")} />
+            <Dot diameter={props.diameter * 1.2} backgroundColor="black" />
+          </>
+        )}
       </Spring>
     </View>
   )
