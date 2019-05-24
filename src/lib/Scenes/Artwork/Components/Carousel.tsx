@@ -1,7 +1,16 @@
 import { color, Flex, space, Spacer } from "@artsy/palette"
 import { StaticBackButton } from "lib/Components/Bidding/Components/BackButton"
 import React, { useCallback, useMemo, useState } from "react"
-import { Dimensions, FlatList, Image, Modal, SafeAreaView, TouchableWithoutFeedback, View } from "react-native"
+import {
+  Dimensions,
+  FlatList,
+  Image,
+  Modal,
+  SafeAreaView,
+  ScrollView,
+  TouchableWithoutFeedback,
+  View,
+} from "react-native"
 import ImageZoom from "react-native-image-pan-zoom"
 import ImageViewer from "react-native-image-zoom-viewer"
 import { Spring } from "react-spring/dist/native.cjs.js"
@@ -64,6 +73,8 @@ function getMeasurements({
   }
 }
 
+const lastPanTimestamp = 0
+
 export function FullScreenCarousel({
   sources,
   onDismiss,
@@ -71,7 +82,9 @@ export function FullScreenCarousel({
   onScroll,
 }: CarouselProps & { imageIndex: number; onDismiss(): void; onScroll(): void }) {
   const images = useMemo(() => sources.map(({ imageURL }) => ({ url: imageURL })), [sources])
+  const [zoomViewIsAtHorizontalBoundary, setZoomViewIsAtHorizontalBoundary] = useState(true)
 
+  console.log({ zoomViewIsAtHorizontalBoundary })
   return (
     <Modal>
       {/*
@@ -86,6 +99,7 @@ export function FullScreenCarousel({
       <FlatList<ImageProps>
         data={sources}
         horizontal
+        scrollEnabled={zoomViewIsAtHorizontalBoundary}
         showsHorizontalScrollIndicator={false}
         snapToInterval={windowWidth}
         decelerationRate="fast"
@@ -97,12 +111,7 @@ export function FullScreenCarousel({
             boundingBox: windowBoundingBox,
           })
           return (
-            <ImageZoom
-              cropWidth={Dimensions.get("window").width}
-              cropHeight={Dimensions.get("window").height}
-              imageWidth={width}
-              imageHeight={height}
-            >
+            <ScrollView bounces={false} overScrollMode="never" minimumZoomScale={1} maximumZoomScale={2} centerContent>
               <Image
                 style={{
                   width,
@@ -110,8 +119,32 @@ export function FullScreenCarousel({
                 }}
                 source={{ uri: item.imageURL }}
               />
-            </ImageZoom>
+            </ScrollView>
           )
+          // return (
+          //     <ImageZoom
+          //       cropWidth={Dimensions.get("window").width}
+          //       cropHeight={Dimensions.get("window").height}
+          //       imageWidth={width}
+          //       imageHeight={height}
+          //       setAtHorizontalBoundary={blah => {
+          //         if (!blah && Date.now() - lastPanTimestamp < 500) {
+          //           setZoomViewIsAtHorizontalBoundary(blah)
+          //         } else if (blah) {
+          //           setZoomViewIsAtHorizontalBoundary(blah)
+          //         }
+          //         lastPanTimestamp = Date.now()
+          //       }}
+          //     >
+          //       <Image
+          //         style={{
+          //           width,
+          //           height,
+          //         }}
+          //         source={{ uri: item.imageURL }}
+          //       />
+          //     </ImageZoom>
+          // )
         }}
       />
       <StaticBackButton onBack={onDismiss} top={space(3) + space(6)} />
